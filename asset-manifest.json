@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f1ada0f.css",
+    "main.js": "/static/js/main.aff285f6.js",
+    "static/media/prof_pic_small.jpg": "/static/media/prof_pic_small.4d0124c634b49114d5f3.jpg",
+    "static/media/moon.png": "/static/media/moon.20aa011985b2b850dfbc.png",
+    "static/media/sun.png": "/static/media/sun.8b10c77ef64974a6e800.png",
+    "static/media/backround_Night.png": "/static/media/backround_Night.bd59a12b967852f0024a.png",
+    "static/media/backround_Day.png": "/static/media/backround_Day.3f2b243265bddec9cb8c.png",
+    "static/media/shape1Dark.png": "/static/media/shape1Dark.8cea7970fac84207ac69.png",
+    "static/media/stars.png": "/static/media/stars.6450f9d9f4b72fded0eb.png",
+    "static/media/mailBack.png": "/static/media/mailBack.b89861c122c92abef6e8.png",
+    "static/media/frontHouse1_Night.png": "/static/media/frontHouse1_Night.cb7d9e3a04520699cbca.png",
+    "static/media/shape1.png": "/static/media/shape1.617f68381005831063f1.png",
+    "static/media/fontHouse1_Day.png": "/static/media/fontHouse1_Day.220b672bd0aa1eada78f.png",
+    "static/media/mailFront_Closed.png": "/static/media/mailFront_Closed.91ce449ddc268bb8cc97.png",
+    "static/media/mailFront_Opened.png": "/static/media/mailFront_Opened.39a4e310cadb5ae742ab.png",
+    "static/media/Resume.pdf": "/static/media/Resume.b8307411221dd9f1611a.pdf",
+    "static/media/REACT-logo.png": "/static/media/REACT-logo.673d65dd9fdfa0b596d3.png",
+    "static/media/codeNinjas.png": "/static/media/codeNinjas.8bd61c74eb7589b98d31.png",
+    "static/media/SASS-logo.png": "/static/media/SASS-logo.885c0b89c8d1bee249d4.png",
+    "static/media/HTML-logo.png": "/static/media/HTML-logo.00bf06775c8070b6e64a.png",
+    "static/media/CSS-logo.png": "/static/media/CSS-logo.84307b24c3c8be1f10d0.png",
+    "static/media/cloud1.png": "/static/media/cloud1.86b3fe0494402d702d39.png",
+    "static/media/PYTHON-logo.png": "/static/media/PYTHON-logo.bfd58c5508c31cf4a89b.png",
+    "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.44fe013da452b69e771e.png",
+    "static/media/TAILWIND-logo.png": "/static/media/TAILWIND-logo.bc30b7051da34ef8a05b.png",
+    "index.html": "/index.html",
+    "main.1f1ada0f.css.map": "/static/css/main.1f1ada0f.css.map",
+    "main.aff285f6.js.map": "/static/js/main.aff285f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f1ada0f.css",
+    "static/js/main.aff285f6.js"
+  ]
+}

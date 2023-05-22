@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0b2c193a.css",
-    "main.js": "/static/js/main.1c46a1d4.js",
+    "main.js": "/static/js/main.a7244b25.js",
     "static/media/prof_pic_small.jpg": "/static/media/prof_pic_small.4d0124c634b49114d5f3.jpg",
     "static/media/moon.png": "/static/media/moon.20aa011985b2b850dfbc.png",
     "static/media/sun.png": "/static/media/sun.8b10c77ef64974a6e800.png",
@@ -11,12 +11,14 @@
     "static/media/stars.png": "/static/media/stars.6450f9d9f4b72fded0eb.png",
     "static/media/mailBack.png": "/static/media/mailBack.b89861c122c92abef6e8.png",
     "static/media/frontHouse1_Night.png": "/static/media/frontHouse1_Night.cb7d9e3a04520699cbca.png",
+    "static/media/ASM-logo.png": "/static/media/ASM-logo.c7df7ac32bf2d0cd2cbc.png",
     "static/media/shape1.png": "/static/media/shape1.617f68381005831063f1.png",
     "static/media/fontHouse1_Day.png": "/static/media/fontHouse1_Day.220b672bd0aa1eada78f.png",
     "static/media/mailFront_Closed.png": "/static/media/mailFront_Closed.91ce449ddc268bb8cc97.png",
     "static/media/mailFront_Opened.png": "/static/media/mailFront_Opened.39a4e310cadb5ae742ab.png",
-    "static/media/Resume.pdf": "/static/media/Resume.bb9ff0dcf524e8f9bf59.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.b5954af8df071be22244.pdf",
     "static/media/C++.png": "/static/media/C++.a29e71d3a6a1c87c8c05.png",
+    "static/media/BOOTSTRAP-logo.png": "/static/media/BOOTSTRAP-logo.e149455edc4efbe9d9da.png",
     "static/media/REACT-logo.png": "/static/media/REACT-logo.673d65dd9fdfa0b596d3.png",
     "static/media/codeNinjas.png": "/static/media/codeNinjas.8bd61c74eb7589b98d31.png",
     "static/media/SASS-logo.png": "/static/media/SASS-logo.885c0b89c8d1bee249d4.png",
@@ -28,10 +30,10 @@
     "static/media/TAILWIND-logo.png": "/static/media/TAILWIND-logo.bc30b7051da34ef8a05b.png",
     "index.html": "/index.html",
     "main.0b2c193a.css.map": "/static/css/main.0b2c193a.css.map",
-    "main.1c46a1d4.js.map": "/static/js/main.1c46a1d4.js.map"
+    "main.a7244b25.js.map": "/static/js/main.a7244b25.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2c193a.css",
-    "static/js/main.1c46a1d4.js"
+    "static/js/main.a7244b25.js"
   ]
 }

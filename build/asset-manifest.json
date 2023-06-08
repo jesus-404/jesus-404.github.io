@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d092e64b.css",
+    "main.js": "/static/js/main.3c0b3df3.js",
+    "static/media/moon.webp": "/static/media/moon.663a7a522c153df9142d.webp",
+    "static/media/sun.webp": "/static/media/sun.66eac32511613f0f9317.webp",
+    "static/media/Resume.pdf": "/static/media/Resume.b5954af8df071be22244.pdf",
+    "static/media/backround_Night.webp": "/static/media/backround_Night.46e2171ac4881af9792a.webp",
+    "static/media/prof_pic_small.webp": "/static/media/prof_pic_small.7297ff1fed8a66193a2f.webp",
+    "static/media/mailBack.webp": "/static/media/mailBack.fc398655e2f745215e63.webp",
+    "static/media/backround_Day.webp": "/static/media/backround_Day.732a9e2810be6219142e.webp",
+    "static/media/myWebsite.webp": "/static/media/myWebsite.30767d1e1f065bd3c8e2.webp",
+    "static/media/frontHouse1_Night.webp": "/static/media/frontHouse1_Night.a804bd9f242e34e046bd.webp",
+    "static/media/shape1.webp": "/static/media/shape1.ad28fbd194e014f88c59.webp",
+    "static/media/shape1Dark.webp": "/static/media/shape1Dark.caa49a604e041fdccd3d.webp",
+    "static/media/mailFront_Closed.webp": "/static/media/mailFront_Closed.86cf2fc6efe40371b53c.webp",
+    "static/media/mailFront_Opened.webp": "/static/media/mailFront_Opened.55600b9c36060d47703d.webp",
+    "static/media/REACT-logo.webp": "/static/media/REACT-logo.2a14b8a1714aec6a7426.webp",
+    "static/media/stars.webp": "/static/media/stars.eb3a71a86e710582b5a5.webp",
+    "static/media/fontHouse1_Day.webp": "/static/media/fontHouse1_Day.a02b533f16de9fb2ef3d.webp",
+    "static/media/ASM-logo.webp": "/static/media/ASM-logo.30ec9fded119a12aa2be.webp",
+    "static/media/codeNinjas.webp": "/static/media/codeNinjas.08da0b0f547c4090056c.webp",
+    "static/media/gameTitle.webp": "/static/media/gameTitle.7095eec6a0d621807557.webp",
+    "static/media/C++.webp": "/static/media/C++.30e9d3898a38d5976f99.webp",
+    "static/media/SASS-logo.webp": "/static/media/SASS-logo.1d4cde9aa17e7a45b2c2.webp",
+    "static/media/CSS-logo.webp": "/static/media/CSS-logo.f983e0b3649313b89b22.webp",
+    "static/media/HTML-logo.webp": "/static/media/HTML-logo.2f26fe8eb4bf8cf50dcb.webp",
+    "static/media/PYTHON-logo.webp": "/static/media/PYTHON-logo.49ec1f352e304cb8cf46.webp",
+    "static/media/TAILWIND-logo.webp": "/static/media/TAILWIND-logo.a81d5d3b0fbcece4a998.webp",
+    "static/media/BOOTSTRAP-logo.webp": "/static/media/BOOTSTRAP-logo.368b1cae61a3b10bc749.webp",
+    "static/media/JavaScript-logo.webp": "/static/media/JavaScript-logo.fde88dcfbc88b6d70f19.webp",
+    "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
+    "index.html": "/index.html",
+    "main.d092e64b.css.map": "/static/css/main.d092e64b.css.map",
+    "main.3c0b3df3.js.map": "/static/js/main.3c0b3df3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d092e64b.css",
+    "static/js/main.3c0b3df3.js"
+  ]
+}

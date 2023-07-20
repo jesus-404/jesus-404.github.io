@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d092e64b.css",
-    "main.js": "/static/js/main.1d7d9069.js",
+    "main.js": "/static/js/main.d4b85b04.js",
     "static/media/moon.webp": "/static/media/moon.663a7a522c153df9142d.webp",
     "static/media/sun.webp": "/static/media/sun.66eac32511613f0f9317.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.b5954af8df071be22244.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.d11d0be7ec16d4710685.pdf",
     "static/media/backround_Night.webp": "/static/media/backround_Night.46e2171ac4881af9792a.webp",
     "static/media/prof_pic_small.webp": "/static/media/prof_pic_small.7297ff1fed8a66193a2f.webp",
     "static/media/mailBack.webp": "/static/media/mailBack.fc398655e2f745215e63.webp",
@@ -25,7 +25,9 @@
     "static/media/SASS-logo.webp": "/static/media/SASS-logo.1d4cde9aa17e7a45b2c2.webp",
     "static/media/CSS-logo.webp": "/static/media/CSS-logo.f983e0b3649313b89b22.webp",
     "static/media/HTML-logo.webp": "/static/media/HTML-logo.2f26fe8eb4bf8cf50dcb.webp",
+    "static/media/SQL-logo.webp": "/static/media/SQL-logo.bac5792eb8aaf15b387e.webp",
     "static/media/PHP-logo.webp": "/static/media/PHP-logo.5e6257028bff334f2c0d.webp",
+    "static/media/MySQL-logo.webp": "/static/media/MySQL-logo.73883612d30c3b9984af.webp",
     "static/media/PYTHON-logo.webp": "/static/media/PYTHON-logo.49ec1f352e304cb8cf46.webp",
     "static/media/TAILWIND-logo.webp": "/static/media/TAILWIND-logo.a81d5d3b0fbcece4a998.webp",
     "static/media/BOOTSTRAP-logo.webp": "/static/media/BOOTSTRAP-logo.368b1cae61a3b10bc749.webp",
@@ -33,10 +35,10 @@
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
     "main.d092e64b.css.map": "/static/css/main.d092e64b.css.map",
-    "main.1d7d9069.js.map": "/static/js/main.1d7d9069.js.map"
+    "main.d4b85b04.js.map": "/static/js/main.d4b85b04.js.map"
   },
   "entrypoints": [
     "static/css/main.d092e64b.css",
-    "static/js/main.1d7d9069.js"
+    "static/js/main.d4b85b04.js"
   ]
 }

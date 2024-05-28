@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.35e28248.css",
-    "main.js": "/static/js/main.3ddb52b4.js",
+    "main.js": "/static/js/main.d2fdad1a.js",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
+    "static/media/databaseWebsite.webp": "/static/media/databaseWebsite.efe7acdf555a38c2a4ca.webp",
     "static/media/biblioConnect.webp": "/static/media/biblioConnect.c14209c20230fa99c7ec.webp",
     "static/media/moon.webp": "/static/media/moon.663a7a522c153df9142d.webp",
     "static/media/sun.webp": "/static/media/sun.66eac32511613f0f9317.webp",
@@ -41,10 +42,10 @@
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
     "main.35e28248.css.map": "/static/css/main.35e28248.css.map",
-    "main.3ddb52b4.js.map": "/static/js/main.3ddb52b4.js.map"
+    "main.d2fdad1a.js.map": "/static/js/main.d2fdad1a.js.map"
   },
   "entrypoints": [
     "static/css/main.35e28248.css",
-    "static/js/main.3ddb52b4.js"
+    "static/js/main.d2fdad1a.js"
   ]
 }

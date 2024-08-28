@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.333bcfe4.css",
-    "main.js": "/static/js/main.aea3653d.js",
+    "main.css": "/static/css/main.5afe33c6.css",
+    "main.js": "/static/js/main.e337ba6e.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
     "static/media/databaseWebsite.webp": "/static/media/databaseWebsite.efe7acdf555a38c2a4ca.webp",
@@ -44,11 +44,11 @@
     "static/media/JavaScript-logo.webp": "/static/media/JavaScript-logo.fde88dcfbc88b6d70f19.webp",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
-    "main.333bcfe4.css.map": "/static/css/main.333bcfe4.css.map",
-    "main.aea3653d.js.map": "/static/js/main.aea3653d.js.map"
+    "main.5afe33c6.css.map": "/static/css/main.5afe33c6.css.map",
+    "main.e337ba6e.js.map": "/static/js/main.e337ba6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.333bcfe4.css",
-    "static/js/main.aea3653d.js"
+    "static/css/main.5afe33c6.css",
+    "static/js/main.e337ba6e.js"
   ]
 }

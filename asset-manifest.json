@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5afe33c6.css",
-    "main.js": "/static/js/main.e337ba6e.js",
+    "main.css": "/static/css/main.661a8e25.css",
+    "main.js": "/static/js/main.f44f08da.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
     "static/media/databaseWebsite.webp": "/static/media/databaseWebsite.efe7acdf555a38c2a4ca.webp",
@@ -26,6 +26,7 @@
     "static/media/fontHouse1_Day.webp": "/static/media/fontHouse1_Day.a02b533f16de9fb2ef3d.webp",
     "static/media/ASM-logo.webp": "/static/media/ASM-logo.30ec9fded119a12aa2be.webp",
     "static/media/MongoDB-logo.webp": "/static/media/MongoDB-logo.bf72beb57f70a009da54.webp",
+    "static/media/mesaU.webp": "/static/media/mesaU.7e698f58ba6f547000bf.webp",
     "static/media/codeNinjas.webp": "/static/media/codeNinjas.08da0b0f547c4090056c.webp",
     "static/media/NODE-logo.webp": "/static/media/NODE-logo.2331a78dffee1223804b.webp",
     "static/media/gameTitle.webp": "/static/media/gameTitle.7095eec6a0d621807557.webp",
@@ -33,6 +34,7 @@
     "static/media/SASS-logo.webp": "/static/media/SASS-logo.1d4cde9aa17e7a45b2c2.webp",
     "static/media/CSS-logo.webp": "/static/media/CSS-logo.f983e0b3649313b89b22.webp",
     "static/media/HTML-logo.webp": "/static/media/HTML-logo.2f26fe8eb4bf8cf50dcb.webp",
+    "static/media/aiWebsite.webp": "/static/media/aiWebsite.9028a8b2587278322709.webp",
     "static/media/SQL-logo.webp": "/static/media/SQL-logo.bac5792eb8aaf15b387e.webp",
     "static/media/PHP-logo.webp": "/static/media/PHP-logo.5e6257028bff334f2c0d.webp",
     "static/media/MySQL-logo.webp": "/static/media/MySQL-logo.73883612d30c3b9984af.webp",
@@ -41,14 +43,16 @@
     "static/media/TAILWIND-logo.webp": "/static/media/TAILWIND-logo.a81d5d3b0fbcece4a998.webp",
     "static/media/EXPRESS-logo.webp": "/static/media/EXPRESS-logo.554cf6062f2221d09c78.webp",
     "static/media/BOOTSTRAP-logo.webp": "/static/media/BOOTSTRAP-logo.368b1cae61a3b10bc749.webp",
+    "static/media/TypeScript-logo.webp": "/static/media/TypeScript-logo.7580ca63689d023e5894.webp",
+    "static/media/NEXT-logo.webp": "/static/media/NEXT-logo.aa9ff5db96edf57755fb.webp",
     "static/media/JavaScript-logo.webp": "/static/media/JavaScript-logo.fde88dcfbc88b6d70f19.webp",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
-    "main.5afe33c6.css.map": "/static/css/main.5afe33c6.css.map",
-    "main.e337ba6e.js.map": "/static/js/main.e337ba6e.js.map"
+    "main.661a8e25.css.map": "/static/css/main.661a8e25.css.map",
+    "main.f44f08da.js.map": "/static/js/main.f44f08da.js.map"
   },
   "entrypoints": [
-    "static/css/main.5afe33c6.css",
-    "static/js/main.e337ba6e.js"
+    "static/css/main.661a8e25.css",
+    "static/js/main.f44f08da.js"
   ]
 }

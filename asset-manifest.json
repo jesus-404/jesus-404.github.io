@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.661a8e25.css",
-    "main.js": "/static/js/main.f44f08da.js",
+    "main.js": "/static/js/main.7059cb65.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
     "static/media/databaseWebsite.webp": "/static/media/databaseWebsite.efe7acdf555a38c2a4ca.webp",
     "static/media/biblioConnect.webp": "/static/media/biblioConnect.c14209c20230fa99c7ec.webp",
+    "static/media/Resume.pdf": "/static/media/Resume.fc9468323db36dbc447e.pdf",
     "static/media/moon.webp": "/static/media/moon.663a7a522c153df9142d.webp",
     "static/media/sun.webp": "/static/media/sun.66eac32511613f0f9317.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.1238b819f582415ba232.pdf",
     "static/media/backround_Night.webp": "/static/media/backround_Night.46e2171ac4881af9792a.webp",
     "static/media/prof_pic_small.webp": "/static/media/prof_pic_small.7297ff1fed8a66193a2f.webp",
     "static/media/aNova.webp": "/static/media/aNova.60e1cee5f98aca238d72.webp",
@@ -44,15 +44,17 @@
     "static/media/EXPRESS-logo.webp": "/static/media/EXPRESS-logo.554cf6062f2221d09c78.webp",
     "static/media/BOOTSTRAP-logo.webp": "/static/media/BOOTSTRAP-logo.368b1cae61a3b10bc749.webp",
     "static/media/TypeScript-logo.webp": "/static/media/TypeScript-logo.7580ca63689d023e5894.webp",
+    "static/media/GuitarApp.webp": "/static/media/GuitarApp.17f06bba7a7f696c5e91.webp",
+    "static/media/ScrambleApp.webp": "/static/media/ScrambleApp.50743f600c64fdab304e.webp",
     "static/media/NEXT-logo.webp": "/static/media/NEXT-logo.aa9ff5db96edf57755fb.webp",
     "static/media/JavaScript-logo.webp": "/static/media/JavaScript-logo.fde88dcfbc88b6d70f19.webp",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
     "main.661a8e25.css.map": "/static/css/main.661a8e25.css.map",
-    "main.f44f08da.js.map": "/static/js/main.f44f08da.js.map"
+    "main.7059cb65.js.map": "/static/js/main.7059cb65.js.map"
   },
   "entrypoints": [
     "static/css/main.661a8e25.css",
-    "static/js/main.f44f08da.js"
+    "static/js/main.7059cb65.js"
   ]
 }

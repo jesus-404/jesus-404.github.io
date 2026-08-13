@@ -1,0 +1,169 @@
+.text { display: flex; justify-content: center; }
+
+#exp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: clamp(5rem, 9vw, 8rem) 1.5rem clamp(6rem, 10vw, 9rem);
+    background-color: var(--surface-muted);
+    transition: background-color var(--theme-duration) var(--theme-ease);
+
+    .exp-container {
+        width: min(100%, 1180px);
+
+        .exp-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .exp-title {
+                color: var(--ink-strong);
+                font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+                font-weight: var(--weight-bold);
+                letter-spacing: var(--tracking-heading);
+                text-align: center;
+                @include textShadow;
+            }
+
+            .exp-desc {
+                color: var(--ink);
+                font-family: var(--font-body);
+                font-size: clamp(1rem, 1.7vw, 1.25rem);
+                font-weight: var(--weight-regular);
+                line-height: 1.5;
+                text-align: center;
+                @include underline(3.2rem);
+            }
+        }
+
+        .exp-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin: clamp(3.5rem, 7vw, 5rem) 0 0;
+            list-style: none;
+        }
+
+        .exp-card {
+            --connector-overhang: -4.6rem;
+            position: relative;
+            display: grid;
+            grid-template-columns: minmax(7rem, 15rem) 24px minmax(0, 1fr);
+            gap: 1rem;
+            align-items: start;
+            padding: 2.2rem 0;
+            color: var(--ink);
+            @include leftEffect;
+
+            .exp-image {
+                position: absolute;
+                top: 1.5rem;
+                left: 12rem;
+                z-index: 0;
+                width: 225px;
+                height: auto;
+                filter: grayscale(1) opacity(.08) blur(1px);
+                pointer-events: none;
+            }
+
+            .card-text1,
+            .card-text2 { position: relative; z-index: 1; }
+
+            .card-text1 {
+                text-align: right;
+
+                h3 {
+                    color: var(--ink-strong);
+                    font-size: clamp(1rem, 1.8vw, 1.2rem);
+                    font-weight: var(--weight-medium);
+                    @include textShadow;
+
+                    a {
+                        color: inherit;
+                        text-decoration: none;
+                        text-decoration-thickness: 1px;
+                        text-underline-offset: .2em;
+                        &:hover,
+                        &:focus-visible { text-decoration: underline; }
+                    }
+                }
+
+                p {
+                    margin-top: .35rem;
+                    color: var(--ink-soft);
+                    font-family: var(--font-body);
+                    font-size: .82rem;
+                    line-height: 1.4;
+                }
+            }
+
+            .dot {
+                position: relative;
+                z-index: 2;
+                width: 20px;
+                min-height: 20px;
+                align-self: stretch;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: .2rem;
+                    left: 50%;
+                    z-index: 1;
+                    width: 20px;
+                    height: 20px;
+                    background-color: var(--ink-strong);
+                    border: 4px solid var(--surface-muted);
+                    border-radius: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            &.has-connector .dot::after {
+                content: "";
+                position: absolute;
+                top: calc(.2rem + 20px);
+                bottom: var(--connector-overhang);
+                left: 50%;
+                width: 2px;
+                background: repeating-linear-gradient(to bottom, var(--ink-strong) 0 8px, transparent 8px 16px);
+                opacity: .45;
+                transform: translateX(-50%);
+            }
+
+            .card-text2 {
+                h4 {
+                    color: var(--ink-strong);
+                    font-size: clamp(1rem, 1.8vw, 1.2rem);
+                    font-weight: var(--weight-bold);
+                    @include textShadow;
+                }
+
+                p {
+                    max-width: 68ch;
+                    margin-top: .45rem;
+                    color: var(--ink);
+                    font-family: var(--font-body);
+                    font-size: .9rem;
+                    line-height: 1.7;
+                }
+            }
+        }
+    }
+
+    .expand-btn { display: flex; }
+}
+
+@media screen and (max-width: 640px) {
+    #exp .exp-container .exp-card {
+        --connector-overhang: -3.7rem;
+        grid-template-columns: 20px minmax(0, 1fr);
+        gap: .9rem;
+        padding: 1.75rem 0;
+
+        .exp-image { right: 0; left: auto; width: 160px; }
+        .card-text1 { grid-column: 2; grid-row: 1; text-align: left; }
+        .dot { grid-column: 1; grid-row: 1 / span 2; }
+        .card-text2 { grid-column: 2; grid-row: 2; }
+    }
+}

@@ -1,0 +1,143 @@
+.text { display: flex; justify-content: center; }
+
+#projects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: clamp(2rem, 6vw, 5rem);
+    padding: clamp(5rem, 9vw, 8rem) 0 0;
+    background-color: var(--surface-muted);
+    transition: background-color var(--theme-duration) var(--theme-ease);
+
+    .work-container {
+        width: 100%;
+        max-width: 1640px;
+
+        .work-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 1.5rem;
+
+            .work-title {
+                color: var(--ink-strong);
+                font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+                font-weight: var(--weight-bold);
+                letter-spacing: var(--tracking-heading);
+                @include textShadow;
+            }
+
+            .work-desc {
+                color: var(--ink);
+                font-family: var(--font-body);
+                font-size: clamp(1rem, 1.7vw, 1.25rem);
+                font-weight: var(--weight-regular);
+                line-height: 1.5;
+                @include underline(2.6rem);
+            }
+
+            .work-hint {
+                margin-top: 3.3rem;
+                color: var(--ink-soft);
+                font-size: .75rem;
+                font-weight: var(--weight-medium);
+                letter-spacing: var(--tracking-label);
+                text-transform: uppercase;
+            }
+        }
+
+        .work-grid {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding: 0 1.5rem 7rem;
+            overflow-x: auto;
+            list-style: none;
+            scroll-snap-type: x proximity;
+            scroll-padding-inline: 1.5rem;
+            overscroll-behavior-inline: contain;
+            scrollbar-color: var(--ink-strong) var(--surface-muted);
+
+            .work-card-item {
+                flex: 0 0 clamp(17rem, 31vw, 22rem);
+                scroll-snap-align: start;
+            }
+
+            .work-card {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                color: inherit;
+                text-decoration: none;
+                background-color: var(--surface);
+                box-shadow: var(--graphic-shadow-md);
+                @include leftEffect;
+                transition: transform var(--motion-base) var(--ease-standard), background-color var(--theme-duration) var(--theme-ease), box-shadow var(--theme-duration) var(--theme-ease);
+
+                &:hover,
+                &:focus-visible {
+                    transform: translateY(-6px);
+                }
+
+                .work-media {
+                    aspect-ratio: 1;
+                    overflow: hidden;
+                    background-color: var(--surface-offset);
+
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform .35s var(--ease-standard);
+                    }
+                }
+
+                &:hover .work-media img,
+                &:focus-visible .work-media img { transform: scale(1.03); }
+
+                .card-text {
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 1.25rem;
+
+                    h3 {
+                        color: var(--ink-strong);
+                        font-size: 1.1rem;
+                        font-weight: var(--weight-bold);
+                        @include textShadow;
+                    }
+
+                    p:nth-child(2) {
+                        margin-top: .25rem;
+                        color: var(--ink-soft);
+                        font-size: .78rem;
+                    }
+
+                    p:nth-child(3) {
+                        margin-top: .8rem;
+                        color: var(--ink);
+                        font-family: var(--font-body);
+                        font-size: .88rem;
+                        font-weight: var(--weight-regular);
+                        line-height: 1.6;
+                    }
+
+                    .card-link {
+                        margin-top: auto;
+                        padding-top: 1.2rem;
+                        color: var(--accent);
+                        font-size: .72rem;
+                        font-weight: var(--weight-medium);
+                        letter-spacing: var(--tracking-label);
+                        text-transform: uppercase;
+
+                        span { font-size: 1rem; }
+                    }
+                }
+            }
+        }
+    }
+}

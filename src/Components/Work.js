@@ -11,8 +11,8 @@ export default function Work() {
         <section id="projects" aria-labelledby="projects-title">
             <div className="work-container">
                 <div className="work-header">
-                    <h2 id="projects-title" className="work-title text">MY PROJECTS</h2>
-                    <p className="work-desc text">Projects I've worked on so far.</p>
+                    <h2 id="projects-title" className="work-title text">TECHNICAL PROJECTS</h2>
+                    <p className="work-desc text">Software and systems projects supporting my broader engineering foundation.</p>
                     <p className="work-hint">Scroll to browse the project rail.</p>
                 </div>
                 <ul className="work-grid" ref={gridRef} aria-label="Portfolio projects">

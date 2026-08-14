@@ -13,56 +13,24 @@ const workData = [
         img: MyWebsite,
         link: "https://github.com/jesus-404/jesus-404.github.io",
         title: "Portfolio Website",
-        date: "August 2022",
-        desc: "Designed in Figma, I created my portfolio website using HTML, CSS, JavaScript and more.",
-        altDesc: "An image of my portfolio website homepage."
-    },
-    {
-        img: eCommerceWebsite,
-        link: "https://github.com/jesus-404/bubblery.github.io",
-        title: "eCommerce Website",
-        date: "February 2024",
-        desc: "Designed with Bootstrap, I created this eCommerce website using React.js and Sass.",
-        altDesc: "The homepage of my eCommerce website."
+        date: "June 2022 – Present",
+        desc: "Designed, developed, deployed, and continually maintained a responsive React portfolio using SASS, GSAP, GitHub, and GitHub Pages.",
+        altDesc: "Jesus Aguayo's portfolio website homepage."
     },
     {
         img: hackHayward,
         link: "https://www.hackhayward.com/",
         title: "HackHayward Website",
-        date: "August 2024",
-        desc: "In collaboration with the design team, we, in the technical team, created the pre-registration webpage.",
-        altDesc: "An image of HackHayward's pre-registration webpage."
-    },
-    {
-        img: aiWebsite,
-        link: "https://github.com/jesus-404/NutriVerse.github.io",
-        title: "AI Website",
-        date: "September 2024",
-        desc: "Developed in less than 24 hours, I worked tirelessly to create our page using React.js, Next.js, and TypeScript.",
-        altDesc: "The landing page of my AI website."
-    },
-    {
-        img: guitarApp,
-        link: "https://github.com/jesus-404/GuitarMobileApp",
-        title: "Guitar Mobile App",
-        date: "October 2024",
-        desc: "Developed in Android Studio, I created a simple guitar application as a learning resource and practice companion.",
-        altDesc: "The home screen of my guitar mobile application."
-    },
-    {
-        img: scrambleApp,
-        link: "https://github.com/jesus-404/Scramble",
-        title: "Scramble Mobile Game App",
-        date: "November 2024",
-        desc: "Using Figma, I created the classic Wordle game with my own twist in Android Studio using Java and XML.",
-        altDesc: "The main screen of my Scramble mobile game."
+        date: "August 2024 – March 2025",
+        desc: "Collaborated with design and engineering teams on responsive interfaces, registration, live-event activities, rankings, debugging, and performance.",
+        altDesc: "HackHayward event website."
     },
     {
         img: databaseWebsite,
         link: "https://github.com/jjfishtank/CS351-Group6-Project2",
         title: "Database Website",
-        date: "February 2024",
-        desc: "Collaborating with other students, I worked on my team's database using Express.JS, Node.JS, and MongoDB.",
+        date: "April 2024",
+        desc: "Built and tested a full-stack client/server application with Node.js, Express.js, MongoDB, account creation, and cart functionality.",
         altDesc: "The homepage of our database-backed website."
     },
     {
@@ -70,16 +38,48 @@ const workData = [
         link: "https://github.com/jesus-404/BiblioConnect_Library-N-Social_System",
         title: "Biblio Connect",
         date: "April 2024",
-        desc: "Created with Java, I collaborated with a group and worked on the backend database with MongoDB.",
-        altDesc: "An image of my library system menu including social networking."
+        desc: "Collaborated on a Java library-management and social system, contributing backend logic, MongoDB data work, and component integration.",
+        altDesc: "BiblioConnect library and social system menu."
+    },
+    {
+        img: eCommerceWebsite,
+        link: "https://github.com/jesus-404/bubblery.github.io",
+        title: "eCommerce Website",
+        date: "February 2024",
+        desc: "Developed a responsive e-commerce prototype using React, Bootstrap, and SASS, with an emphasis on reusable interfaces and cross-device behavior.",
+        altDesc: "The homepage of the Bubblery e-commerce prototype."
+    },
+    {
+        img: aiWebsite,
+        link: "https://github.com/jesus-404/NutriVerse.github.io",
+        title: "NutriVerse Hackathon Prototype",
+        date: "September 2024",
+        desc: "Developed a nutrition-platform prototype during a hackathon. Event-only AI features were removed from the simplified public release.",
+        altDesc: "The public NutriVerse platform landing page."
+    },
+    {
+        img: scrambleApp,
+        link: "https://github.com/jesus-404/Scramble",
+        title: "Scramble Mobile Game",
+        date: "November – December 2024",
+        desc: "Built an Android word-puzzle application in Java, implementing game logic, user interaction, and a structured mobile application flow.",
+        altDesc: "The main screen of the Scramble Android word game."
+    },
+    {
+        img: guitarApp,
+        link: "https://github.com/jesus-404/GuitarMobileApp",
+        title: "Guitar Mobile App",
+        date: "September – October 2024",
+        desc: "Created an Android learning application in Java to help beginning guitar players practice chords and musical notes.",
+        altDesc: "The home screen of the guitar learning application."
     },
     {
         img: TicTacToe,
         link: "https://github.com/jesus-404/MIPS-Assembly-TIC-TAC-TOE",
         title: "MIPS ASM: Tic-Tac-Toe",
-        date: "May 2023",
-        desc: "In the MARS MIPS simulator, I created the classic game of TIC-TAC-TOE using MIPS Assembly Language.",
-        altDesc: "An image of my Tic-Tac-Toe title page."
+        date: "March – May 2023",
+        desc: "Implemented Tic-Tac-Toe in MIPS Assembly using the MARS simulator, applying low-level program flow and computer architecture concepts.",
+        altDesc: "The title screen of the MIPS Tic-Tac-Toe project."
     }
 ];
 

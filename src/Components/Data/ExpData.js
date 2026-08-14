@@ -1,68 +1,117 @@
-import aNova from "../../Images/exp/aNova.webp";
+import armyNationalGuard from "../../Images/exp/armyNationalGuard.png";
 import codeNinjas from "../../Images/exp/codeNinjas.webp";
+import csueb from "../../Images/exp/csueb.svg";
 import hackHayward from "../../Images/exp/HackHayward.webp";
-import mesaU from "../../Images/exp/mesaU.webp";
+import securityPlus from "../../Images/exp/securityPlus.png";
+import { FaLaptopCode } from "react-icons/fa";
 
 const expData = [
     {
-        img : hackHayward,
-        link : "https://www.hackhayward.com",
-        title : "Hack Hayward", 
-        date : "August 2024 - Present",
-        subTitle : "Full-Stack Web Developer",
-        desc : (
+        img: armyNationalGuard,
+        title: "Army National Guard",
+        date: "March 2025 – Present",
+        subTitle: "Network Systems Specialist (25H)",
+        desc: (
             <>
-            At HackHayward, I currently assist the design team in working on the website's UI/UX and with the technical team in developing a working website by:
-            <br/><br/>• Implementing responsive design principles and optimized performance for an enhanced user experience.
-            <br/>• Contributing to developing features, debugging, and code reviews to ensure high-quality code standards.
-            <br/>• Assisting in UI/UX development efforts to create visually appealing and user-friendly interfaces.
+                Support secure voice and data communications across tactical and garrison-oriented environments where availability and reliability have operational importance.
+                <br /><br />• Deploy, configure, maintain, and support routers, switches, LAN/WAN connectivity, satellite communications, and transport-network equipment.
+                <br />• Diagnose connectivity faults and restore communications during time-sensitive or degraded operating conditions.
+                <br />• Apply VPN, encryption, access-control, and information-assurance procedures, including work with KIV-7M equipment.
             </>
         )
     },
     {
-        img : mesaU,
-        link : "https://www.hackhayward.com",
-        title : "Mesa-U Hacks", 
-        date : "September 2024 - September 2024",
-        subTitle : "Front-End Web Developer",
-        desc : (
+        img: csueb,
+        link: "https://www.csueastbay.edu/",
+        linkLabel: "university website",
+        title: "California State University, East Bay",
+        date: "August 2026 – May 2028",
+        subTitle: "M.S. Computer Science — Networking Concentration",
+        desc: (
             <>
-                A hackathon held by Mesa-U, where I was part of a team that created NutriVerse, a full-stack web application. NutriVerse is an AI-driven ecosystem that connects consumers, leveraging advanced technologies to create a global "nutrition nervous system," optimizing food distribution and consumption.
-                <br /><br />• Led the development team in designing and building a full-stack web application focused on creating an AI-driven nutrition platform.
-                <br />• Collaborated with team members to prototype key features, including AI integration for food distribution and consumption insights.
-                <br />• Presented the finished product to judges and participants, showcasing its potential to impact nutrition and sustainability.
+                Pursuing graduate specialization in networking to build deeper knowledge of networked systems and infrastructure.
+                <br /><br />• Focus areas include advanced computer networks, network security, cloud infrastructure, distributed systems, and systems architecture.
+                <br />• Extending a broad Computer Science foundation toward enterprise networking, infrastructure reliability, and future cloud networking work.
             </>
         )
     },
     {
-        img : codeNinjas,
-        link : "https://www.codeninjas.com/ca-union-city",
-        title : "Code Ninjas", 
-        date : "May 2022 - May 2023",
-        subTitle : "Code Instructor",
-        desc : (
+        icon: FaLaptopCode,
+        brandScale: .85,
+        title: "FLAZ Labs",
+        date: "April 2026 – Present",
+        subTitle: "Co-Founder & Front-End Software Lead",
+        desc: (
             <>
-            At Code Ninjas, I’ve worked with children from ages 7-14, teaching mainly JavaScript by:
-            <br/><br/>• Guiding children aged 7 to 14 in the programming fundamentals of JavaScript, fostering a strong foundation in coding principles.
-            <br/>• Assisting students through hands-on projects, including building simple and interactive games, to reinforce their understanding of JavaScript concepts.
+                Lead front-end software design and development across the application lifecycle, from planning through deployment and maintenance.
+                <br /><br />• Coordinate with back-end engineers and UI/UX designers to deliver responsive, secure, and user-centered application experiences.
+                <br />• Support testing, technical planning, code review, deployment, troubleshooting, and application reliability.
+                <br />• Work across interconnected account, profile, payment, and application-data workflows, reinforcing a broader systems perspective.
             </>
         )
     },
     {
-        img : aNova,
-        link : "https://www.berkeleyanova.org/anovahacks",
-        title : "ANova Hacks", 
-        date : "March 2021 - April 2021",
-        subTitle : "Website Game Developer",
-        desc : (
+        img: securityPlus,
+        brandScale: .88,
+        title: "Credentials & Current Development",
+        date: "2025 – Present",
+        subTitle: "Security+ Certified | CCNA In Progress",
+        desc: (
             <>
-            A Hackathon held by Berkeley for any level. Here, we had been assigned a team of four. During the event, my team and I collaborated in the creation of a no-code web-based game to create awareness of COVID-19 by:
-            <br/><br/>• Leading a team of developers in designing and developing a web-based game focused on raising awareness about COVID-19.
-            <br/>• Prototyping with team members on game concepts and mechanics to develop interactive gameplay and user interfaces.
-            <br/>• Demonstrating the final product to judges and peers, highlighting the game’s technical implementation.
+                Continuing structured development in networking and secure infrastructure.
+                <br /><br />• CompTIA Security+ — earned February 2026 and current through February 2029.
+                <br />• Cisco CCNA — actively preparing through Jeremy’s IT Lab, Cisco Packet Tracer, and hands-on routing and switching practice.
+                <br />• Active Secret security clearance.
             </>
         )
     },
-]
+    {
+        img: csueb,
+        link: "https://www.csueastbay.edu/",
+        linkLabel: "university website",
+        title: "California State University, East Bay",
+        date: "August 2021 – May 2025",
+        subTitle: "B.S. Computer Science | Minor in Mathematics",
+        desc: (
+            <>
+                Built the software, systems, and problem-solving foundation supporting my transition into Network Engineering.
+                <br /><br />• Relevant coursework included Computer Networks, Operating Systems, Computer Organization and Assembly, Databases, Software Engineering, and Data Structures and Algorithms.
+                <br />• Developed experience with applications, operating systems, databases, programming, and system interactions that can support future network automation and programmability.
+            </>
+        )
+    },
+    {
+        img: hackHayward,
+        brandFilter: "brightness(0) saturate(100%) invert(48%) sepia(30%) saturate(1050%) hue-rotate(211deg) brightness(79%) contrast(100%) opacity(.15)",
+        link: "https://www.hackhayward.com",
+        linkLabel: "organization website",
+        title: "HackHayward",
+        date: "July 2024 – March 2025",
+        subTitle: "Full-Stack Web Developer",
+        desc: (
+            <>
+                Collaborated with design and engineering teams to build and maintain software for hackathon and event operations.
+                <br /><br />• Developed and debugged front-end and back-end features supporting registration, live activities, and ranking systems.
+                <br />• Improved responsive behavior and application performance across devices.
+                <br />• Participated in code reviews and collaborative troubleshooting to maintain reliable production-oriented software.
+            </>
+        )
+    },
+    {
+        img: codeNinjas,
+        link: "https://www.codeninjas.com/ca-union-city",
+        linkLabel: "organization website",
+        title: "Code Ninjas",
+        date: "May 2022 – August 2022",
+        subTitle: "Coding Instructor",
+        desc: (
+            <>
+                Taught programming fundamentals to students ages 7–14 through hands-on JavaScript and game-development projects.
+                <br /><br />• Broke technical concepts into understandable steps and guided students through structured problem solving.
+                <br />• Helped learners diagnose errors, debug their code, and communicate their reasoning—skills that transfer directly to documentation and collaborative troubleshooting.
+            </>
+        )
+    }
+];
 
-export default expData
+export default expData;

@@ -99,3 +99,14 @@
         }
     }
 }
+
+@media screen and (max-width: 640px) {
+    #about .about-container .about-body .prof-pic {
+        width: min(78vw, 260px);
+    }
+
+    #about .about-container .about-body .about-text .about-subTitle {
+        width: 100%;
+        text-align: center;
+    }
+}

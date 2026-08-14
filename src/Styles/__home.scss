@@ -286,6 +286,16 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    #home .home-container1 .home-container2 .home-text {
+        .home-eyebrow,
+        .home-role {
+            font-size: .9rem;
+            line-height: 1.4;
+        }
+    }
+}
+
 @keyframes xsDrift { from { transform: translateX(-90px) scaleX(-1); } to { transform: translateX(-10px) scaleX(-1); } }
 @keyframes sDrift { from { transform: translateX(-25px) scaleX(-1); } to { transform: translateX(40px) scaleX(-1); } }
 @keyframes mDrift { from { transform: translateX(15px); } to { transform: translateX(180px); } }

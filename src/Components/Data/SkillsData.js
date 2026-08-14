@@ -1,39 +1,65 @@
-import Python from "../../Images/Logos/PYTHON-logo.webp";
-import Cplusplus from "../../Images/Logos/C++.webp";
-import ASM from "../../Images/Logos/ASM-logo.webp";
-import HTML from "../../Images/Logos/HTML-logo.webp";
-import CSS from "../../Images/Logos/CSS-logo.webp";
-import Java from "../../Images/Logos/Java-logo.webp";
-import JavaScript from "../../Images/Logos/JavaScript-logo.webp";
-import TypeScript from "../../Images/Logos/TypeScript-logo.webp";
-import MongoDB from "../../Images/Logos/MongoDB-logo.webp";
-import MySQL from "../../Images/Logos/MySQL-logo.webp";
-import REACT from "../../Images/Logos/REACT-logo.webp";
-import Bootstrap from "../../Images/Logos/BOOTSTRAP-logo.webp";
-import TailWind from "../../Images/Logos/TAILWIND-logo.webp";
-import SASS from "../../Images/Logos/SASS-logo.webp";
-import Node from "../../Images/Logos/NODE-logo.webp";
-import Express from "../../Images/Logos/EXPRESS-logo.webp";
-import NEXT from "../../Images/Logos/NEXT-logo.webp";
+import AWS from "../../Images/Logos/skills/aws.webp";
+import Bash from "../../Images/Logos/skills/bash.webp";
+import CCNA from "../../Images/Logos/skills/ccna.webp";
+import Cisco from "../../Images/Logos/skills/cisco.png";
+import CiscoPacketTracer from "../../Images/Logos/skills/cisco-packet-tracer.webp";
+import Cplusplus from "../../Images/Logos/skills/cpp.webp";
+import CSUEB from "../../Images/Logos/skills/csueb.webp";
+import Java from "../../Images/Logos/skills/java.webp";
+import JavaScript from "../../Images/Logos/skills/javascript.webp";
+import Linux from "../../Images/Logos/skills/linux.webp";
+import MongoDB from "../../Images/Logos/skills/mongodb.webp";
+import Node from "../../Images/Logos/skills/node.webp";
+import Python from "../../Images/Logos/skills/python.webp";
+import REACT from "../../Images/Logos/skills/react.webp";
+import SecurityClearance from "../../Images/Logos/skills/security-clearance.webp";
+import SecurityPlus from "../../Images/Logos/skills/security-plus.webp";
+import VMware from "../../Images/Logos/skills/vmware-workstation.webp";
+import Wireshark from "../../Images/Logos/skills/wireshark.webp";
+import {
+    FaBookOpen,
+    FaNetworkWired,
+    FaSatelliteDish,
+    FaServer,
+    FaShieldAlt,
+    FaSitemap,
+    FaTools,
+    FaUserCog
+} from "react-icons/fa";
+import { SiDocker, SiWindows } from "react-icons/si";
 
 const skillsData = [
-    { img: Python, title: "Python", category: "Languages" },
-    { img: Cplusplus, title: "C++", category: "Languages" },
-    { img: Java, title: "Java", category: "Languages" },
-    { img: ASM, title: "Assembly Language", category: "Languages" },
-    { img: JavaScript, title: "JavaScript", category: "Languages" },
-    { img: TypeScript, title: "TypeScript", category: "Languages" },
-    { img: HTML, title: "HTML", category: "Frontend" },
-    { img: CSS, title: "CSS", category: "Frontend" },
-    { img: REACT, title: "React.js", category: "Frontend" },
-    { img: Bootstrap, title: "Bootstrap", category: "Frontend" },
-    { img: SASS, title: "SASS", category: "Frontend" },
-    { img: TailWind, title: "Tailwind", category: "Frontend" },
-    { img: NEXT, title: "Next.js", category: "Frontend" },
-    { img: Node, title: "Node.js", category: "Backend & Data" },
-    { img: Express, title: "Express.js", category: "Backend & Data" },
-    { img: MongoDB, title: "MongoDB", category: "Backend & Data" },
-    { img: MySQL, title: "MySQL", category: "Backend & Data" }
+    { icon: FaNetworkWired, color: "#0093e9", title: "TCP/IP", category: "Networking & Infrastructure" },
+    { icon: FaSitemap, color: "#0077b6", title: "LAN/WAN", category: "Networking & Infrastructure" },
+    { img: Cisco, title: "Routers & Switches", category: "Networking & Infrastructure" },
+    { icon: FaTools, color: "#f59e0b", scale: .8, title: "Network Troubleshooting", category: "Networking & Infrastructure" },
+    { icon: FaShieldAlt, color: "#2e7d32", title: "VPNs & Encryption", category: "Networking & Infrastructure" },
+    { icon: FaUserCog, color: "#7b61a8", title: "Network Administration", category: "Networking & Infrastructure" },
+    { icon: FaServer, color: "#607d8b", title: "System Administration", category: "Networking & Infrastructure" },
+    { icon: FaSatelliteDish, color: "#ef6c00", title: "Satellite Communications", category: "Networking & Infrastructure" },
+
+    { img: SecurityPlus, scale: 1, title: "CompTIA Security+", category: "Credentials & Development" },
+    { img: CCNA, scale: 1, title: "CCNA — In Progress", category: "Credentials & Development" },
+    { img: SecurityClearance, scale: 1, title: "Active Secret Clearance", category: "Credentials & Development" },
+    { img: CSUEB, scale: 1, title: "M.S. Networking", category: "Credentials & Development" },
+
+    { img: CiscoPacketTracer, title: "Cisco Packet Tracer", category: "Systems, Tools & Cloud Exposure" },
+    { img: Wireshark, scale: .8, title: "Wireshark", category: "Systems, Tools & Cloud Exposure" },
+    { img: Linux, scale: .8, title: "Linux", category: "Systems, Tools & Cloud Exposure" },
+    { icon: SiWindows, color: "#0078d4", title: "Windows", category: "Systems, Tools & Cloud Exposure" },
+    { img: VMware, title: "VMware", category: "Systems, Tools & Cloud Exposure" },
+    { img: AWS, scale: 1, title: "AWS", category: "Systems, Tools & Cloud Exposure" },
+    { icon: SiDocker, color: "#2496ed", scale: 1, title: "Docker", category: "Systems, Tools & Cloud Exposure" },
+
+    { img: Python, title: "Python", category: "Programming & Software" },
+    { img: Bash, offsetY: "-8px", title: "Bash", category: "Programming & Software" },
+    { img: Java, offsetY: "-18px", scale: .82, title: "Java", category: "Programming & Software" },
+    { img: Cplusplus, offsetY: "-8px", title: "C++", category: "Programming & Software" },
+    { img: JavaScript, title: "JavaScript", category: "Programming & Software" },
+    { img: REACT, scale: 1, title: "React.js", category: "Programming & Software" },
+    { img: Node, offsetY: "-8px", title: "Node.js", category: "Programming & Software" },
+    { img: MongoDB, offsetY: "-42px", scale: .5, title: "MongoDB", category: "Programming & Software" },
+    { icon: FaBookOpen, color: "var(--ink)", scale: 1, title: "Technical Documentation", category: "Programming & Software" }
 ];
 
 export default skillsData;

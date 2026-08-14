@@ -4,7 +4,7 @@ import SkillCard from "./Sub_components/SkillCard";
 import skillsData from "./Data/SkillsData";
 import useRevealOnScroll from "../hooks/useRevealOnScroll";
 
-const visibleGroups = ["Languages", "Frontend"];
+const visibleGroups = ["Networking & Infrastructure", "Credentials & Development"];
 
 export default function Skills() {
     const [expanded, setExpanded] = useState(false);
@@ -31,7 +31,7 @@ export default function Skills() {
             <div className="skills-container">
                 <div className="skills-header">
                     <h2 id="skills-title" className="skills-title text">MY SKILLS</h2>
-                    <p className="skills-desc text">My ever-growing skill set.</p>
+                    <p className="skills-desc text">Networking experience, current development, and supporting technical skills.</p>
                 </div>
                 <div id="skills-grid" className="skills-grid" ref={gridRef}>
                     {Object.entries(groupedSkills).map(([category, skills]) => (

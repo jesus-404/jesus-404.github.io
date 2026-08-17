@@ -14,7 +14,7 @@ const workData = [
         link: "https://github.com/jesus-404/jesus-404.github.io",
         title: "Portfolio Website",
         date: "June 2022 – Present",
-        desc: "Designed, developed, deployed, and continually maintained a responsive React portfolio using SASS, GSAP, GitHub, and GitHub Pages.",
+        desc: "Designed, developed, deployed, and continually maintain a responsive React portfolio presenting my Network Engineering path, experience, skills, and technical projects using SASS, GSAP, GitHub, and GitHub Pages.",
         altDesc: "Jesus Aguayo's portfolio website homepage."
     },
     {
@@ -22,7 +22,7 @@ const workData = [
         link: "https://www.hackhayward.com/",
         title: "HackHayward Website",
         date: "August 2024 – March 2025",
-        desc: "Collaborated with design and engineering teams on responsive interfaces, registration, live-event activities, rankings, debugging, and performance.",
+        desc: "Collaborated with design and engineering teams to build and maintain HackHayward’s responsive live-event platform, supporting registration, event activities, rankings, debugging, and performance improvements.",
         altDesc: "HackHayward event website."
     },
     {
@@ -30,7 +30,7 @@ const workData = [
         link: "https://github.com/jjfishtank/CS351-Group6-Project2",
         title: "Database Website",
         date: "April 2024",
-        desc: "Built and tested a full-stack client/server application with Node.js, Express.js, MongoDB, account creation, and cart functionality.",
+        desc: "Built and tested a full-stack client/server application supporting account creation, persistent data, and cart workflows with Node.js, Express.js, and MongoDB.",
         altDesc: "The homepage of our database-backed website."
     },
     {
@@ -61,7 +61,7 @@ const workData = [
         img: scrambleApp,
         link: "https://github.com/jesus-404/Scramble",
         title: "Scramble Mobile Game",
-        date: "November – December 2024",
+        date: "November 2024 – December 2024",
         desc: "Built an Android word-puzzle application in Java, implementing game logic, user interaction, and a structured mobile application flow.",
         altDesc: "The main screen of the Scramble Android word game."
     },
@@ -69,7 +69,7 @@ const workData = [
         img: guitarApp,
         link: "https://github.com/jesus-404/GuitarMobileApp",
         title: "Guitar Mobile App",
-        date: "September – October 2024",
+        date: "September 2024 – October 2024",
         desc: "Created an Android learning application in Java to help beginning guitar players practice chords and musical notes.",
         altDesc: "The home screen of the guitar learning application."
     },
@@ -77,7 +77,7 @@ const workData = [
         img: TicTacToe,
         link: "https://github.com/jesus-404/MIPS-Assembly-TIC-TAC-TOE",
         title: "MIPS ASM: Tic-Tac-Toe",
-        date: "March – May 2023",
+        date: "March 2023 – May 2023",
         desc: "Implemented Tic-Tac-Toe in MIPS Assembly using the MARS simulator, applying low-level program flow and computer architecture concepts.",
         altDesc: "The title screen of the MIPS Tic-Tac-Toe project."
     }

@@ -13,8 +13,8 @@ export default function Experiences() {
         <section id="exp" aria-labelledby="exp-title">
             <div className="exp-container">
                 <div className="exp-header">
-                    <h2 id="exp-title" className="exp-title text">EXPERIENCE & EDUCATION</h2>
-                    <p className="exp-desc text">The roles, education, and credentials shaping my path into Network Engineering.</p>
+                    <h2 id="exp-title" className="exp-title text">EXPERIENCE, EDUCATION & CREDENTIALS</h2>
+                    <p className="exp-desc text">Hands-on experience and continued development toward Network Engineering.</p>
                 </div>
                 <ol id="experience-grid" className="exp-grid" ref={gridRef}>
                     {ExpData.map((experience, index) => {

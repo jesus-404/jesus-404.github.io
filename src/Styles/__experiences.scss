@@ -57,12 +57,12 @@
 
             .exp-image {
                 position: absolute;
-                top: calc(50% + 40px);
-                left: 32px;
+                top: calc(50% + 50px);
+                left: 74px;
                 z-index: 0;
-                width: 202px;
+                width: 160px;
                 height: auto;
-                filter: var(--exp-brand-filter, opacity(.08));
+                filter: var(--exp-brand-filter, none);
                 pointer-events: none;
                 transform: translateY(-50%) scale(var(--exp-brand-scale, 1));
                 transform-origin: center;
@@ -179,10 +179,12 @@
 
         .exp-image {
             top: auto;
-            right: 12px;
-            bottom: -14px;
+            right: 6px;
+            bottom: -20px;
             left: auto;
-            width: 144px;
+            width: 116px;
+            opacity: .1;
+            filter: var(--exp-brand-filter, none);
             transform: scale(var(--exp-brand-scale, 1));
             transform-origin: right bottom;
         }

@@ -110,9 +110,9 @@ export default function Home({ isDark, opacityStyle }) {
             <div className="home-container1">
                 <div className="home-container2">
                     <div className="home-text">
-                        <p className="home-eyebrow">Secure Infrastructure • Computer Science</p>
+                        <p className="home-eyebrow">Hello, my name is</p>
                         <h1 id="home-title">Jesus Aguayo</h1>
-                        <p className="home-role">Aspiring Network Engineer</p>
+                        <p className="home-role">An aspiring Network Engineer</p>
                         <a className="home-btn" href="#exp">
                             <span>VIEW MY EXPERIENCE</span>
                             <span aria-hidden="true"><IoChevronForwardOutline /></span>

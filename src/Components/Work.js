@@ -12,7 +12,7 @@ export default function Work() {
             <div className="work-container">
                 <div className="work-header">
                     <h2 id="projects-title" className="work-title text">TECHNICAL PROJECTS</h2>
-                    <p className="work-desc text">Software and systems projects supporting my broader engineering foundation.</p>
+                    <p className="work-desc text">Systems and software projects supporting my Network Engineering foundation.</p>
                     <p className="work-hint">Scroll to browse the project rail.</p>
                 </div>
                 <ul className="work-grid" ref={gridRef} aria-label="Portfolio projects">

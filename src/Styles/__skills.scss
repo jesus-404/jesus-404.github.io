@@ -28,6 +28,7 @@
                 font-size: clamp(1rem, 1.7vw, 1.25rem);
                 font-weight: var(--weight-regular);
                 line-height: 1.5;
+                text-align: center;
                 @include underline(2.6rem);
             }
         }

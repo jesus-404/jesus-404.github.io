@@ -249,12 +249,12 @@
                 }
 
                 .home-btn {
-                    display: inline-flex;
+                    display: flex;
                     align-items: center;
                     justify-content: center;
                     width: clamp(12rem, 22vw, 15.625rem);
                     min-height: 56px;
-                    margin-top: 1.75rem;
+                    margin: 1.75rem auto 0;
                     color: $white;
                     text-decoration: none;
                     background: transparent;

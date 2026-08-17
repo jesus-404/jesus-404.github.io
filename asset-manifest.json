@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2080da17.css",
+    "main.css": "/static/css/main.91d9cd61.css",
     "main.js": "/static/js/main.43faf8cc.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/security-clearance.webp": "/static/media/security-clearance.18b3cd71a98474f5722a.webp",
@@ -48,11 +48,11 @@
     "index.html": "/index.html",
     "static/media/csueb.svg": "/static/media/csueb.851e77b9b44af420be937e8903cc36b6.svg",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
-    "main.2080da17.css.map": "/static/css/main.2080da17.css.map",
+    "main.91d9cd61.css.map": "/static/css/main.91d9cd61.css.map",
     "main.43faf8cc.js.map": "/static/js/main.43faf8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.2080da17.css",
+    "static/css/main.91d9cd61.css",
     "static/js/main.43faf8cc.js"
   ]
 }

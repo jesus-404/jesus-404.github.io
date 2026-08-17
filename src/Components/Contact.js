@@ -4,7 +4,6 @@ import dayShape from "../Images/Shapes/shape1.webp";
 import mailBack from "../Images/Landscape/mailBack.webp";
 import mailFrontOpened from "../Images/mailFront_Opened.webp";
 import mailFrontClosed from "../Images/mailFront_Closed.webp";
-import stars from "../Images/Celestial-Bodies/stars.webp";
 import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
@@ -18,7 +17,6 @@ export default function Contact({ opacityStyle, filterStyle }) {
     const landscapeRef = useRef(null);
     const openMailboxRef = useRef(null);
     const closedMailboxRef = useRef(null);
-    const starsRef = useRef(null);
     const statusRef = useRef(null);
 
     useEffect(() => {
@@ -37,7 +35,6 @@ export default function Contact({ opacityStyle, filterStyle }) {
             landscapeRef.current?.style.setProperty("--parallax-y", `${distanceFromBottom * 0.15}px`);
             openMailboxRef.current?.style.setProperty("--parallax-y", `${distanceFromBottom * 0.3}px`);
             closedMailboxRef.current?.style.setProperty("--parallax-y", `${distanceFromBottom * 0.3}px`);
-            starsRef.current?.style.setProperty("--parallax-y", `${distanceFromBottom * -0.2}px`);
         };
         const scheduleUpdate = () => {
             if (frameId === null) frameId = window.requestAnimationFrame(update);
@@ -137,7 +134,6 @@ export default function Contact({ opacityStyle, filterStyle }) {
                         <div className="dayShape" style={shapeMaskStyle}></div>
                         <div className="nightShape" style={{ ...shapeMaskStyle, ...opacityStyle }}></div>
                         <img src={mailBack} alt="" className="landscape" width="3127" height="1080" style={filterStyle} ref={landscapeRef} loading="lazy" decoding="async" />
-                        <img src={stars} alt="" className="con-stars-img" width="4500" height="1554" style={opacityStyle} ref={starsRef} loading="lazy" decoding="async" />
                         <img src={mailFrontOpened} alt="" className="mail-box-open" width="3127" height="1080" style={{ ...filterStyle, opacity: mailboxClosed ? 0 : 1 }} ref={openMailboxRef} loading="lazy" decoding="async" />
                         <img src={mailFrontClosed} alt="" className="mail-box-closed" width="3127" height="1080" style={{ ...filterStyle, opacity: mailboxClosed ? 1 : 0 }} ref={closedMailboxRef} loading="lazy" decoding="async" />
                     </div>

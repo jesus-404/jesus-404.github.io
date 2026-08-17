@@ -123,21 +123,6 @@
                 .mail-box-open,
                 .mail-box-closed { @include contactScene; left: 0; margin-left: -141px; }
 
-                .con-stars-img {
-                    position: absolute;
-                    bottom: 0;
-                    left: 50%;
-                    z-index: 6;
-                    width: 4500px;
-                    height: auto;
-                    margin-bottom: -100px;
-                    margin-left: -1600px;
-                    opacity: .85;
-                    transform: translate3d(0, var(--parallax-y, 0px), 0) scale(.75);
-                    transition: opacity var(--theme-duration) var(--theme-ease);
-                    will-change: transform, opacity;
-                }
-
                 @include smallScreen {
                     .landscape { width: 1100px; height: 380px; margin-right: -150px; }
                     .mail-box-open,
@@ -147,7 +132,6 @@
                     .landscape { right: auto; width: 1250px; height: 432px; margin-left: 240px; margin-right: 0; }
                     .mail-box-open,
                     .mail-box-closed { width: 1250px; height: 432px; right: auto; left: auto; margin-left: -120px; margin-right: 0; }
-                    .con-stars-img { margin-left: -1700px; }
                 }
                 @include largeScreen {
                     .landscape { width: 1500px; height: 518px; margin-left: -100px; }

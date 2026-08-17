@@ -3,7 +3,6 @@ import { IoChevronForwardOutline } from "react-icons/io5";
 import sun from "../Images/Celestial-Bodies/sun.webp";
 import moon from "../Images/Celestial-Bodies/moon.webp";
 import cloud from "../Images/cloud1.webp";
-import stars from "../Images/Celestial-Bodies/stars.webp";
 import dayShape from "../Images/Shapes/shape1.webp";
 import frontDay from "../Images/Landscape/fontHouse1_Day.webp";
 import backDay from "../Images/Landscape/backround_Day.webp";
@@ -63,7 +62,7 @@ export default function Home({ isDark, opacityStyle }) {
 
             const maxParallaxScroll = Math.min(section.offsetHeight, window.innerHeight * 0.5);
             const value = Math.min(Math.max(-sectionRect.top, 0), maxParallaxScroll);
-            const shifts = [0.05, 0.05, 0.1, 0.1, 0.12];
+            const shifts = [0.05, 0.05, 0.1, 0.1];
 
             parallaxRefs.current.forEach((element, index) => {
                 if (element) element.style.setProperty("--parallax-y", `${value * shifts[index]}px`);
@@ -97,7 +96,6 @@ export default function Home({ isDark, opacityStyle }) {
                         <img src={moon} alt="" className="moon-img" width="1920" height="1080" decoding="async" />
                     </span>
                     <img src={cloud} alt="" className="cloud-img" width="238" height="171" decoding="async" />
-                    <img src={stars} alt="" className="stars-img" width="4500" height="1554" style={opacityStyle} ref={setParallaxRef(4)} decoding="async" />
                     <div className="white-block"></div>
                     <div className="dayShape" style={shapeMaskStyle}></div>
                     <img src={frontDay} alt="" className="front-Day" width="1920" height="1080" ref={setParallaxRef(0)} decoding="async" />

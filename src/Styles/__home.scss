@@ -191,20 +191,6 @@
                 @include xlargeScreen { bottom: 550px; margin-right: -350px; animation-name: xlgDrift; }
             }
 
-            .stars-img {
-                position: absolute;
-                bottom: 0;
-                z-index: 6;
-                width: 4500px;
-                height: auto;
-                margin-right: -700px;
-                margin-bottom: -200px;
-                opacity: .85;
-                transform: translate3d(0, var(--parallax-y, 0px), 0) scale(.75);
-                transition: opacity var(--theme-duration) var(--theme-ease);
-                will-change: transform, opacity;
-                @include midScreen { margin-right: 0; }
-            }
         }
     }
 

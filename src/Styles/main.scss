@@ -182,6 +182,99 @@ a { -webkit-tap-highlight-color: transparent; }
     }
 }
 
+#home .backround-imgs .all-imgs,
+#contact .contact-container .contact-body .contact-imgs {
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 7;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity var(--theme-duration) var(--theme-ease);
+        will-change: opacity;
+    }
+
+    &::before {
+        background:
+            radial-gradient(circle at 9% 23%, rgba(255, 255, 255, .96) 0 1.5px, rgba(190, 225, 255, .35) 1.7px, transparent 3px),
+            radial-gradient(circle at 23% 34%, rgba(255, 255, 255, .86) 0 .8px, transparent 1.7px),
+            radial-gradient(circle at 38% 8%, rgba(255, 255, 255, .9) 0 1.1px, transparent 2.1px),
+            radial-gradient(circle at 53% 44%, rgba(255, 255, 255, .8) 0 .8px, transparent 1.7px),
+            radial-gradient(circle at 67% 20%, rgba(255, 255, 255, .92) 0 1.1px, transparent 2.1px),
+            radial-gradient(circle at 77% 9%, rgba(255, 255, 255, .96) 0 1.6px, rgba(190, 225, 255, .3) 1.8px, transparent 3px),
+            radial-gradient(circle at 87% 15%, rgba(255, 255, 255, .9) 0 1px, transparent 2px),
+            radial-gradient(circle at 97% 24%, rgba(255, 255, 255, .94) 0 1.3px, transparent 2.4px);
+    }
+
+    &::after {
+        background:
+            radial-gradient(circle at 6% 35%, rgba(255, 255, 255, .94) 0 1.2px, transparent 2.3px),
+            radial-gradient(circle at 11% 11%, rgba(255, 255, 255, .8) 0 .6px, transparent 1.4px),
+            radial-gradient(circle at 16% 29%, rgba(255, 255, 255, .88) 0 .9px, transparent 1.8px),
+            radial-gradient(circle at 21% 49%, rgba(255, 255, 255, .97) 0 1.7px, rgba(190, 225, 255, .32) 1.9px, transparent 3.2px),
+            radial-gradient(circle at 26% 7%, rgba(255, 255, 255, .82) 0 .7px, transparent 1.5px),
+            radial-gradient(circle at 31% 39%, rgba(255, 255, 255, .9) 0 1.1px, transparent 2.1px),
+            radial-gradient(circle at 36% 21%, rgba(255, 255, 255, .78) 0 .6px, transparent 1.4px),
+            radial-gradient(circle at 41% 55%, rgba(255, 255, 255, .96) 0 1.4px, transparent 2.5px),
+            radial-gradient(circle at 46% 10%, rgba(255, 255, 255, .84) 0 .8px, transparent 1.7px),
+            radial-gradient(circle at 51% 33%, rgba(255, 255, 255, .98) 0 1.9px, rgba(190, 225, 255, .38) 2.1px, transparent 3.6px),
+            radial-gradient(circle at 56% 24%, rgba(255, 255, 255, .8) 0 .7px, transparent 1.5px),
+            radial-gradient(circle at 61% 47%, rgba(255, 255, 255, .9) 0 1px, transparent 2px),
+            radial-gradient(circle at 66% 7%, rgba(255, 255, 255, .86) 0 .8px, transparent 1.7px),
+            radial-gradient(circle at 71% 37%, rgba(255, 255, 255, .95) 0 1.5px, transparent 2.7px),
+            radial-gradient(circle at 76% 17%, rgba(255, 255, 255, .8) 0 .6px, transparent 1.4px),
+            radial-gradient(circle at 81% 52%, rgba(255, 255, 255, .9) 0 1.1px, transparent 2.1px),
+            radial-gradient(circle at 86% 25%, rgba(255, 255, 255, .98) 0 1.8px, rgba(190, 225, 255, .35) 2px, transparent 3.4px),
+            radial-gradient(circle at 91% 6%, rgba(255, 255, 255, .82) 0 .7px, transparent 1.5px),
+            radial-gradient(circle at 96% 45%, rgba(255, 255, 255, .92) 0 1.2px, transparent 2.3px);
+    }
+}
+
+#app.dark {
+    #home .backround-imgs .all-imgs,
+    #contact .contact-container .contact-body .contact-imgs {
+        &::before { opacity: .72; }
+        &::after { animation: starTwinkleSecondary 7.1s ease-in-out 1.2s infinite; }
+    }
+}
+
+@keyframes starTwinkleSecondary {
+    0%, 100% { opacity: .62; }
+    21% { opacity: .1; }
+    45% { opacity: .78; }
+    63% { opacity: .2; }
+    80% { opacity: .58; }
+}
+
+@media screen and (max-width: 640px) {
+    #home .backround-imgs .all-imgs,
+    #contact .contact-container .contact-body .contact-imgs {
+        &::before {
+            background:
+                radial-gradient(circle at 9% 23%, rgba(255, 255, 255, .96) 0 1.5px, rgba(190, 225, 255, .35) 1.7px, transparent 3px),
+                radial-gradient(circle at 38% 8%, rgba(255, 255, 255, .9) 0 1.1px, transparent 2.1px),
+                radial-gradient(circle at 67% 20%, rgba(255, 255, 255, .92) 0 1.1px, transparent 2.1px),
+                radial-gradient(circle at 87% 15%, rgba(255, 255, 255, .9) 0 1px, transparent 2px);
+        }
+
+        &::after {
+            background:
+                radial-gradient(circle at 6% 35%, rgba(255, 255, 255, .94) 0 1.2px, transparent 2.3px),
+                radial-gradient(circle at 16% 29%, rgba(255, 255, 255, .88) 0 .9px, transparent 1.8px),
+                radial-gradient(circle at 21% 49%, rgba(255, 255, 255, .97) 0 1.7px, rgba(190, 225, 255, .32) 1.9px, transparent 3.2px),
+                radial-gradient(circle at 31% 39%, rgba(255, 255, 255, .9) 0 1.1px, transparent 2.1px),
+                radial-gradient(circle at 46% 10%, rgba(255, 255, 255, .84) 0 .8px, transparent 1.7px),
+                radial-gradient(circle at 51% 33%, rgba(255, 255, 255, .98) 0 1.9px, rgba(190, 225, 255, .38) 2.1px, transparent 3.6px),
+                radial-gradient(circle at 61% 47%, rgba(255, 255, 255, .9) 0 1px, transparent 2px),
+                radial-gradient(circle at 71% 37%, rgba(255, 255, 255, .95) 0 1.5px, transparent 2.7px),
+                radial-gradient(circle at 86% 25%, rgba(255, 255, 255, .98) 0 1.8px, rgba(190, 225, 255, .35) 2px, transparent 3.4px),
+                radial-gradient(circle at 96% 45%, rgba(255, 255, 255, .92) 0 1.2px, transparent 2.3px);
+        }
+    }
+}
+
 main,
 footer { display: block; }
 

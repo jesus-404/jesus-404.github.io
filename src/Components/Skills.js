@@ -9,7 +9,7 @@ const visibleGroups = ["Networking & Infrastructure", "CCNA & Networking Develop
 export default function Skills() {
     const [expanded, setExpanded] = useState(false);
     const gridRef = useRef(null);
-    useRevealOnScroll(gridRef, ".skill-card", false, expanded);
+    useRevealOnScroll(gridRef, ".skills-group", false, expanded);
 
     const groupedSkills = useMemo(() => skillsData.reduce((groups, skill) => {
         if (skill.hidden) return groups;

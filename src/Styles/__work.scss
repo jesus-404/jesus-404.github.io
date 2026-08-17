@@ -39,12 +39,86 @@
             }
 
             .work-hint {
-                margin-top: 3.3rem;
+                margin-top: 1.25rem;
                 color: var(--ink-soft);
                 font-size: .75rem;
                 font-weight: var(--weight-medium);
                 letter-spacing: var(--tracking-label);
                 text-transform: uppercase;
+            }
+
+            .project-switcher {
+                position: relative;
+                display: inline-flex;
+                width: min(100%, 430px);
+                gap: .3rem;
+                margin-top: 3.4rem;
+                padding: .3rem;
+                background-color: var(--surface);
+                border: 1px solid color-mix(in srgb, var(--ink-soft) 24%, transparent);
+                border-radius: 999px;
+                transition: background-color var(--theme-duration) var(--theme-ease), border-color var(--theme-duration) var(--theme-ease);
+
+                &::before {
+                    position: absolute;
+                    top: .3rem;
+                    bottom: .3rem;
+                    left: .3rem;
+                    width: calc((100% - .9rem) / 2);
+                    content: "";
+                    background-color: var(--ink-strong);
+                    border-radius: 999px;
+                    transform: translateX(0);
+                    transition: transform var(--motion-base) var(--ease-standard), background-color var(--theme-duration) var(--theme-ease);
+                    will-change: transform;
+                }
+
+                &[data-active-category="software"]::before {
+                    transform: translateX(calc(100% + .3rem));
+                }
+
+                .project-tab {
+                    position: relative;
+                    z-index: 1;
+                    cursor: pointer;
+                    flex: 1;
+                    min-height: 44px;
+                    padding: .6rem .85rem;
+                    color: var(--ink-strong);
+                    font-size: .72rem;
+                    font-weight: var(--weight-medium);
+                    letter-spacing: var(--tracking-label);
+                    text-transform: uppercase;
+                    background: transparent;
+                    border: 0;
+                    border-radius: 999px;
+                    transition: color var(--motion-base) var(--ease-standard), transform var(--motion-fast) var(--ease-standard);
+
+                    &:hover { color: var(--accent); }
+                    &:active { transform: scale(.98); }
+                    &.active { color: var(--surface); }
+                }
+            }
+        }
+
+        .work-empty {
+            min-height: 25rem;
+            padding: 5rem 1.5rem 7rem;
+            color: var(--ink);
+            text-align: center;
+
+            h3 {
+                color: var(--ink-strong);
+                font-size: clamp(1.15rem, 2vw, 1.5rem);
+                font-weight: var(--weight-bold);
+            }
+
+            p {
+                max-width: 34rem;
+                margin: .75rem auto 0;
+                font-family: var(--font-body);
+                font-size: .95rem;
+                line-height: 1.6;
             }
         }
 
@@ -145,18 +219,30 @@
 }
 
 @media screen and (max-width: 640px) {
-    #projects .work-container .work-header .work-desc {
-        padding-bottom: 1.5rem;
-        text-align: center;
+    #projects .work-container .work-header {
+        .work-desc {
+            padding-bottom: 1.5rem;
+            text-align: center;
 
-        &::before,
-        &::after {
-            left: 50%;
-            margin-top: 0;
-            transform: translateX(-50%);
+            &::before,
+            &::after {
+                left: 50%;
+                margin-top: 0;
+                transform: translateX(-50%);
+            }
+
+            &::before { bottom: .6rem; }
+            &::after { bottom: .1rem; }
         }
 
-        &::before { bottom: .6rem; }
-        &::after { bottom: .1rem; }
+        .project-switcher {
+            margin-top: 1.5rem;
+
+            .project-tab {
+                padding-inline: .55rem;
+                font-size: .62rem;
+                letter-spacing: .07em;
+            }
+        }
     }
 }

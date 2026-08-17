@@ -10,6 +10,7 @@ import biblioConnect from "../../Images/work/biblioConnect.webp";
 
 const workData = [
     {
+        category: "software",
         img: MyWebsite,
         link: "https://github.com/jesus-404/jesus-404.github.io",
         title: "Portfolio Website",
@@ -18,6 +19,7 @@ const workData = [
         altDesc: "Jesus Aguayo's portfolio website homepage."
     },
     {
+        category: "software",
         img: hackHayward,
         link: "https://www.hackhayward.com/",
         title: "HackHayward Website",
@@ -26,6 +28,7 @@ const workData = [
         altDesc: "HackHayward event website."
     },
     {
+        category: "software",
         img: databaseWebsite,
         link: "https://github.com/jjfishtank/CS351-Group6-Project2",
         title: "Database Website",
@@ -34,6 +37,7 @@ const workData = [
         altDesc: "The homepage of our database-backed website."
     },
     {
+        category: "software",
         img: biblioConnect,
         link: "https://github.com/jesus-404/BiblioConnect_Library-N-Social_System",
         title: "Biblio Connect",
@@ -42,6 +46,7 @@ const workData = [
         altDesc: "BiblioConnect library and social system menu."
     },
     {
+        category: "software",
         img: eCommerceWebsite,
         link: "https://github.com/jesus-404/bubblery.github.io",
         title: "eCommerce Website",
@@ -50,6 +55,7 @@ const workData = [
         altDesc: "The homepage of the Bubblery e-commerce prototype."
     },
     {
+        category: "software",
         img: aiWebsite,
         link: "https://github.com/jesus-404/NutriVerse.github.io",
         title: "NutriVerse Hackathon Prototype",
@@ -58,6 +64,7 @@ const workData = [
         altDesc: "The public NutriVerse platform landing page."
     },
     {
+        category: "software",
         img: scrambleApp,
         link: "https://github.com/jesus-404/Scramble",
         title: "Scramble Mobile Game",
@@ -66,6 +73,7 @@ const workData = [
         altDesc: "The main screen of the Scramble Android word game."
     },
     {
+        category: "software",
         img: guitarApp,
         link: "https://github.com/jesus-404/GuitarMobileApp",
         title: "Guitar Mobile App",
@@ -74,6 +82,7 @@ const workData = [
         altDesc: "The home screen of the guitar learning application."
     },
     {
+        category: "software",
         img: TicTacToe,
         link: "https://github.com/jesus-404/MIPS-Assembly-TIC-TAC-TOE",
         title: "MIPS ASM: Tic-Tac-Toe",

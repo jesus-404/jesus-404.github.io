@@ -111,6 +111,7 @@ export default function Home({ isDark, opacityStyle }) {
                         <p className="home-eyebrow">Hello, my name is:</p>
                         <h1 id="home-title">Jesus Aguayo</h1>
                         <p className="home-role">An aspiring Network Engineer</p>
+                        <p className="home-credentials">Army 25H • CompTIA Security+ • CCNA In Progress • M.S. Networking</p>
                         <a className="home-btn" href="#exp">
                             <span>VIEW MY EXPERIENCE</span>
                             <span aria-hidden="true"><IoChevronForwardOutline /></span>

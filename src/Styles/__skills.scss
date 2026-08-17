@@ -44,6 +44,7 @@
         .skills-group {
             padding-top: 1rem;
             border-top: 1px solid color-mix(in srgb, var(--ink-soft) 28%, transparent);
+            @include bottomEffect;
 
             h3 {
                 color: var(--ink-strong);
@@ -75,7 +76,6 @@
             height: 156px;
             padding: 1rem .75rem;
             border-radius: var(--radius-md);
-            @include bottomEffect;
             transition: background-color var(--motion-base) ease, transform var(--motion-base) var(--ease-standard), box-shadow var(--motion-base) ease;
 
             .skill-mark {

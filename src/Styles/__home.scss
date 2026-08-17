@@ -235,6 +235,19 @@
 
                 .home-role { margin-top: .5rem; text-align: right; }
 
+                .home-credentials {
+                    max-width: 44rem;
+                    margin-top: .8rem;
+                    color: rgba(255, 255, 255, .92);
+                    font-family: var(--font-body);
+                    font-size: clamp(.72rem, 1.2vw, .95rem);
+                    font-weight: var(--weight-medium);
+                    line-height: 1.55;
+                    letter-spacing: .035em;
+                    text-align: center;
+                    text-wrap: balance;
+                }
+
                 .home-btn {
                     display: inline-flex;
                     align-items: center;
@@ -279,6 +292,8 @@
             font-size: .9rem;
             line-height: 1.4;
         }
+
+        .home-credentials { font-size: .7rem; }
     }
 }
 

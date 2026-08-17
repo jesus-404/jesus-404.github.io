@@ -310,6 +310,68 @@ section { scroll-margin-top: 96px; }
     &:focus { transform: translateY(0); }
 }
 
+.noscript-note {
+    padding: .8rem 1.25rem;
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: .85rem;
+    text-align: center;
+    background: #004e92;
+}
+
+.static-portfolio {
+    display: grid;
+    gap: 2.5rem;
+    width: min(100% - 2rem, 960px);
+    margin: 0 auto;
+    padding: clamp(3rem, 8vw, 6rem) 0;
+    color: #3c3c3c;
+    font-family: var(--font-body);
+    line-height: 1.7;
+
+    .static-hero {
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #0093e9;
+
+        h1 {
+            color: #282828;
+            font-family: var(--font-display);
+            font-size: clamp(2.75rem, 9vw, 5.5rem);
+            line-height: 1;
+            letter-spacing: -.05em;
+        }
+
+        .static-role { margin-top: .5rem; font-size: 1.2rem; }
+        .static-credentials { margin-top: .8rem; color: #004e92; font-weight: 500; }
+    }
+
+    section {
+        h2 {
+            margin-bottom: .75rem;
+            color: #282828;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+        }
+
+        article + article { margin-top: 1.25rem; }
+        h3 { color: #282828; font-size: 1.05rem; }
+        p + p { margin-top: .65rem; }
+        a { color: #006fae; font-weight: 500; }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #app.static-app { background: #3c3c3c; }
+    .static-portfolio {
+        color: #fff;
+        .static-hero h1,
+        .static-hero .static-credentials,
+        section h2,
+        section h3 { color: #fff; }
+        section a { color: #6ccaff; }
+    }
+}
+
 .expand-btn {
     cursor: pointer;
     position: relative;

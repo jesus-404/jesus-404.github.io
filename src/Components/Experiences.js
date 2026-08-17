@@ -18,7 +18,7 @@ export default function Experiences() {
                 </div>
                 <ol id="experience-grid" className="exp-grid" ref={gridRef}>
                     {ExpData.map((experience, index) => {
-                        const lastVisibleIndex = expanded ? ExpData.length - 1 : 1;
+                        const lastVisibleIndex = expanded ? ExpData.length - 1 : 2;
                         return (
                             <ExpCard
                                 key={experience.title}

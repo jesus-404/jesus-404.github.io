@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.317a098a.css",
-    "main.js": "/static/js/main.4ef322d3.js",
+    "main.css": "/static/css/main.2080da17.css",
+    "main.js": "/static/js/main.43faf8cc.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/security-clearance.webp": "/static/media/security-clearance.18b3cd71a98474f5722a.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
@@ -45,14 +45,14 @@
     "static/media/HackHayward.webp": "/static/media/HackHayward.d923fb7df5733793597e.webp",
     "static/media/GuitarApp.webp": "/static/media/GuitarApp.17f06bba7a7f696c5e91.webp",
     "static/media/ScrambleApp.webp": "/static/media/ScrambleApp.50743f600c64fdab304e.webp",
+    "index.html": "/index.html",
     "static/media/csueb.svg": "/static/media/csueb.851e77b9b44af420be937e8903cc36b6.svg",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
-    "index.html": "/index.html",
-    "main.317a098a.css.map": "/static/css/main.317a098a.css.map",
-    "main.4ef322d3.js.map": "/static/js/main.4ef322d3.js.map"
+    "main.2080da17.css.map": "/static/css/main.2080da17.css.map",
+    "main.43faf8cc.js.map": "/static/js/main.43faf8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.317a098a.css",
-    "static/js/main.4ef322d3.js"
+    "static/css/main.2080da17.css",
+    "static/js/main.43faf8cc.js"
   ]
 }

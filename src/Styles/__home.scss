@@ -107,12 +107,17 @@
                 background-color: var(--surface);
             }
 
-            .dayShape { --shape-color: #{$white}; @include homeShape; }
+            .dayShape {
+                --shape-color: #{$white};
+                @include homeShape;
+                z-index: 10;
+            }
             .front-Day { @include homeFront; }
             .back-Day { @include homeBack; }
             .nightShape {
                 --shape-color: #3c3c3c;
                 @include homeShape;
+                z-index: 11;
                 transition: opacity var(--theme-duration) var(--theme-ease);
                 will-change: opacity;
             }
@@ -236,6 +241,11 @@
                 .home-role { margin-top: .5rem; text-align: right; }
 
                 .home-credentials {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .15rem .45rem;
                     max-width: 44rem;
                     margin-top: .8rem;
                     color: rgba(255, 255, 255, .92);
@@ -246,6 +256,15 @@
                     letter-spacing: .035em;
                     text-align: center;
                     text-wrap: balance;
+
+                    span {
+                        white-space: nowrap;
+
+                        &:not(:last-child)::after {
+                            margin-left: .45rem;
+                            content: "|";
+                        }
+                    }
                 }
 
                 .home-btn {

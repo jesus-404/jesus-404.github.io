@@ -342,7 +342,23 @@ section { scroll-margin-top: 96px; }
         }
 
         .static-role { margin-top: .5rem; font-size: 1.2rem; }
-        .static-credentials { margin-top: .8rem; color: #004e92; font-weight: 500; }
+        .static-credentials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .15rem .45rem;
+            margin-top: .8rem;
+            color: #004e92;
+            font-weight: 500;
+
+            span {
+                white-space: nowrap;
+
+                &:not(:last-child)::after {
+                    margin-left: .45rem;
+                    content: "|";
+                }
+            }
+        }
     }
 
     section {

@@ -1,0 +1,152 @@
+\documentclass[letterpaper,10pt]{article}
+
+% ATS-safe font encoding and searchable Unicode text. cmap adds reliable
+% ToUnicode mappings for ligatures such as fi and fl during text extraction.
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage[margin=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+  pdftitle={Jesus Aguayo - Network Resume},
+  pdfauthor={Jesus Aguayo},
+  pdfsubject={Network Administration, IT Support, and Network Engineering Resume},
+  pdfkeywords={Network Administration, IT Support, Network Engineering, Army 25H, Security+, CCNA}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+
+% Keep headings as ordinary text rather than small caps or letter-spaced boxes.
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+% ASCII hyphens provide more reliable ATS extraction than math-symbol bullets.
+\setlist[itemize]{leftmargin=0.18in, label={-}, nosep, topsep=1pt}
+
+% Single-flow entry layout. Literal pipes keep titles, locations, and dates
+% separated when an ATS extracts text from the PDF. Paragraph boundaries avoid
+% the underfull-box warnings caused by forced line breaks on short entry lines.
+\newcommand{\resumeEntry}[4]{%
+  \textbf{#1}\par
+  {\small\textit{#3} \textbar{} #4 \textbar{} #2}\par\vspace{-1pt}%
+}
+
+\newcommand{\projectEntry}[3]{%
+  \textbf{#1} \textbar{} \textit{#2} \textbar{} #3\par\vspace{-1pt}%
+}
+
+\begin{document}
+
+% Header uses standard text flow so the candidate name and contact details
+% remain searchable and preserve spaces.
+\begin{center}
+  {\LARGE\bfseries Jesus Aguayo}\\[2pt]
+  \small
+  669-250-5694 \textbar{} San Lorenzo, CA \textbar{}
+  \href{mailto:aguayo.jesus2003@gmail.com}{aguayo.jesus2003@gmail.com}\\[1pt]
+  \href{https://www.linkedin.com/in/jesus-aguayo/}{linkedin.com/in/jesus-aguayo} \textbar{}
+  \href{https://github.com/jesus-404}{github.com/jesus-404}\\[2pt]
+  \textbf{Network Engineering \textbar{} Network Administration \textbar{} IT Support \textbar{} Security+ \textbar{} Active Secret Clearance}
+\end{center}
+
+\section{Professional Summary}
+\small
+Computer Science graduate and Army Network Communication Systems Specialist (25H) with hands-on experience in network administration, IT support, routers, switches, LAN/WAN connectivity, satellite communications, VPNs, encryption, network diagnostics, and service restoration. CompTIA Security+ certified with an active Secret clearance; pursuing an M.S. in Computer Science with a Networking concentration and preparing for the Cisco CCNA.
+
+\section{Certifications, Clearance, and Professional Development}
+\begin{itemize}
+  \item CompTIA Security+ - Earned February 2026; valid through February 2029
+  \item Active Secret security clearance
+  \item Cisco Certified Network Associate (CCNA) - In Progress
+\end{itemize}
+
+\section{Technical Skills}
+\small
+\textbf{Networking:} Network administration, IT support, TCP/IP, LAN/WAN, routers, switches, VPNs, DNS, DHCP, routing and switching fundamentals, network diagnostics and troubleshooting\\
+\textbf{Systems and Tools:} System administration, Windows, Linux, VMware, Wireshark\\
+\textbf{Security:} Secure communications, encryption, access control, information assurance, incident response fundamentals\\
+\textbf{Cloud and Infrastructure Exposure:} AWS, Docker\\
+\textbf{Programming and Development:} Python, Bash, Java, C++, JavaScript, React.js, Git, GitHub
+
+\section{Experience}
+
+\resumeEntry
+  {Network Communication Systems Specialist (25H) - Network Administration and IT Support}
+  {March 2025 - Present}
+  {Army National Guard}
+  {California}
+\begin{itemize}
+  \item Deploy, configure, and maintain routers, switches, and satellite communications equipment supporting secure voice and data networks.
+  \item Provide network administration, system support, and user troubleshooting for LAN/WAN and secure communications services across field and fixed-site environments.
+  \item Diagnose connectivity and equipment faults, isolate service issues, and restore communications during time-sensitive and degraded operating conditions.
+  \item Apply VPN, encryption, access control, and information assurance procedures to safeguard sensitive communications and support reliable operations.
+\end{itemize}
+
+\resumeEntry
+  {Co-Founder and Front-End Software Lead}
+  {April 2026 - Present}
+  {FLAZ Labs}
+  {Remote}
+\begin{itemize}
+  \item Lead front-end design, development, testing, and maintenance for responsive web applications, including integration with APIs and back-end services.
+  \item Coordinate feature priorities and implementation with back-end engineers and UI/UX contributors; review code and support release readiness.
+  \item Troubleshoot front-end integration and production UI issues involving authentication, user accounts, and application data.
+\end{itemize}
+
+\resumeEntry
+  {Full-Stack Web Developer}
+  {July 2024 - March 2025}
+  {HackHayward}
+  {Hayward, CA}
+\begin{itemize}
+  \item Developed and debugged front-end and back-end features for event registration, live activities, and ranking systems.
+  \item Supported a live hackathon platform through performance improvements and production-focused troubleshooting.
+  \item Collaborated with designers and engineers to translate UI/UX designs into responsive, cross-device interfaces.
+\end{itemize}
+
+\section{Education}
+
+\resumeEntry
+  {Master of Science in Computer Science, Concentration in Networking}
+  {August 2026 - Expected May 2028}
+  {California State University, East Bay}
+  {Hayward, CA}
+
+\resumeEntry
+  {Bachelor of Science in Computer Science, Minor in Mathematics}
+  {August 2021 - May 2025}
+  {California State University, East Bay}
+  {Hayward, CA}
+\textit{Relevant Coursework: Computer Networks, Operating Systems, Database Systems, Computer Architecture}
+
+\section{Selected Technical Projects}
+
+\projectEntry
+  {Full-Stack Database Web Application}
+  {Node.js, Express.js, MongoDB}
+  {April 2024}
+\begin{itemize}
+  \item Built a client/server web application using Node.js, Express.js, and MongoDB.
+  \item Implemented account creation, authentication, user data, database interactions, and cart workflows.
+\end{itemize}
+
+\projectEntry
+  {Portfolio Website}
+  {React.js, JavaScript, SASS, GSAP}
+  {June 2022 - Present}
+\begin{itemize}
+  \item Designed, developed, deployed, and maintain a responsive React portfolio with interactive GSAP animations.
+  \item Manage source and production builds using Git, GitHub branches, and GitHub Pages.
+\end{itemize}
+
+\end{document}

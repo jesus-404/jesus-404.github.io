@@ -110,12 +110,12 @@
                 .dayShape {
                     --shape-color: #{$white};
                     @include contactShape;
-                    z-index: 9;
+                    z-index: 10;
                 }
                 .nightShape {
                     --shape-color: #3c3c3c;
                     @include contactShape;
-                    z-index: 10;
+                    z-index: 11;
                     transition: opacity var(--theme-duration) var(--theme-ease);
                     will-change: opacity;
                 }

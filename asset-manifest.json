@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.819f333d.css",
-    "main.js": "/static/js/main.ca210a3b.js",
+    "main.css": "/static/css/main.317a098a.css",
+    "main.js": "/static/js/main.4ef322d3.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/security-clearance.webp": "/static/media/security-clearance.18b3cd71a98474f5722a.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
@@ -37,7 +37,6 @@
     "static/media/cisco.png": "/static/media/cisco.c0c5479cfb1c734131f0.png",
     "static/media/bash.webp": "/static/media/bash.20203f2fbad060851cd7.webp",
     "static/media/csueb.webp": "/static/media/csueb.a7930cc1015a546e9e6e.webp",
-    "static/media/stars.webp": "/static/media/stars.eb3a71a86e710582b5a5.webp",
     "static/media/fontHouse1_Day.webp": "/static/media/fontHouse1_Day.a02b533f16de9fb2ef3d.webp",
     "static/media/codeNinjas.webp": "/static/media/codeNinjas.08da0b0f547c4090056c.webp",
     "static/media/gameTitle.webp": "/static/media/gameTitle.7095eec6a0d621807557.webp",
@@ -49,11 +48,11 @@
     "static/media/csueb.svg": "/static/media/csueb.851e77b9b44af420be937e8903cc36b6.svg",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "index.html": "/index.html",
-    "main.819f333d.css.map": "/static/css/main.819f333d.css.map",
-    "main.ca210a3b.js.map": "/static/js/main.ca210a3b.js.map"
+    "main.317a098a.css.map": "/static/css/main.317a098a.css.map",
+    "main.4ef322d3.js.map": "/static/js/main.4ef322d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.819f333d.css",
-    "static/js/main.ca210a3b.js"
+    "static/css/main.317a098a.css",
+    "static/js/main.4ef322d3.js"
   ]
 }

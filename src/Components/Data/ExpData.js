@@ -13,10 +13,10 @@ const expData = [
         subTitle: "Network Communication Systems Specialist (25H) — Network Administration & IT Support",
         desc: (
             <>
-                Administer, monitor, and support secure voice and data networks across tactical and garrison environments, maintaining reliable connectivity and resolving user, device, and infrastructure issues.
-                <br /><br />• Deploy, configure, maintain, and support routers, switches, LAN/WAN connectivity, satellite communications, and transport equipment.
-                <br />• Monitor network availability for service degradation or outages, isolate network, device, and connectivity faults, and restore service during time-sensitive or degraded conditions.
-                <br />• Provide IT support for users and networked systems by resolving configuration, access, and connectivity issues.
+                Deploy, configure, and maintain routers, switches, and satellite communications equipment for secure voice and data networks supporting battalion- and battery-sized elements across field exercise and garrison environments.
+                <br /><br />• Lead 3 soldiers in garrison while deploying, maintaining, and configuring network and satellite communications for a battery-sized element.
+                <br />• Provide network administration, system support, and user troubleshooting for LAN/WAN and secure communications services across field and fixed-site environments.
+                <br />• Monitor network availability, diagnose connectivity and equipment faults, isolate service issues, and restore communications during time-sensitive or degraded conditions.
                 <br />• Apply VPN, encryption, access-control, and information-assurance procedures, including support for KIV-7M equipment.
             </>
         )
@@ -44,9 +44,9 @@ const expData = [
         subTitle: "Co-Founder — Front-End Software Lead",
         desc: (
             <>
-                Lead front-end engineering and contribute to application delivery from planning through deployment and maintenance.
-                <br /><br />• Translate product and UI/UX requirements into responsive, user-centered interfaces while coordinating with designers and back-end engineers.
-                <br />• Diagnose front-end and API-integration issues while contributing to testing, code review, deployment, and release reliability.
+                Lead front-end application development, testing, and maintenance on a team of 4 engineers, including integration with APIs and back-end services.
+                <br /><br />• Coordinate feature priorities and implementation with back-end engineers and UI/UX contributors; review code and support release readiness.
+                <br />• Troubleshoot front-end integration and production UI issues involving authentication, user accounts, and application data.
                 <br />• Use Docker to run back-end services and supporting data containers for account, profile, authentication, payment, and application-data workflows.
             </>
         )
@@ -93,8 +93,8 @@ const expData = [
             <>
                 Collaborated with design and engineering teams to build and maintain HackHayward’s live-event platform.
                 <br /><br />• Developed and debugged front-end and back-end features supporting registration, live activities, and ranking systems.
-                <br />• Improved responsive behavior, usability, and performance across devices.
-                <br />• Contributed to code reviews and cross-team troubleshooting to support reliable event operations.
+                <br />• Supported the live hackathon platform through performance improvements and production-focused troubleshooting.
+                <br />• Translated UI/UX designs into responsive, cross-device interfaces in collaboration with designers and engineers.
             </>
         )
     },

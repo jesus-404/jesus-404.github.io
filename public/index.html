@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="react-app">
   <head>
     <meta charset="utf-8" />
+    <style>html.react-app #root > .static-app { display: none !important; }</style>
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0093e9" />
@@ -36,7 +37,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <noscript><p class="noscript-note">Interactive controls and animations require JavaScript. The portfolio content remains available below.</p></noscript>
+    <noscript>
+      <style>html.react-app #root > .static-app { display: block !important; }</style>
+      <p class="noscript-note">Interactive controls and animations require JavaScript. The portfolio content remains available below.</p>
+    </noscript>
     <div id="root">
       <div id="app" class="static-app">
         <main class="static-portfolio">
@@ -68,7 +72,7 @@
             <article>
               <h3>Army National Guard</h3>
               <p><strong>Network Communication Systems Specialist (25H) — Network Administration &amp; IT Support</strong> · March 2025–Present</p>
-              <p>Administer, monitor, and support secure voice and data networks; maintain routers, switches, LAN/WAN connectivity, satellite communications, and transport equipment; diagnose outages and connectivity faults; and support users and networked systems.</p>
+              <p>Deploy, configure, and maintain routers, switches, and satellite communications equipment for secure voice and data networks supporting battalion- and battery-sized elements; lead three soldiers in garrison; administer LAN/WAN services; troubleshoot users and systems; and restore communications during time-sensitive or degraded conditions.</p>
             </article>
             <article>
               <h3>California State University, East Bay</h3>
@@ -77,6 +81,7 @@
             <article>
               <h3>FLAZ Labs</h3>
               <p><strong>Co-Founder — Front-End Software Lead</strong> · April 2026–Present</p>
+              <p>Lead front-end application development, testing, maintenance, and API integration on a team of four engineers.</p>
             </article>
             <p><strong>CompTIA Security+</strong> · Current through February 2029<br /><strong>Cisco CCNA</strong> · In Progress<br /><strong>Active Secret security clearance</strong></p>
           </section>

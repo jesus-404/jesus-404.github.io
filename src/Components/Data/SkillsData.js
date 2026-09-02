@@ -13,7 +13,7 @@ import Node from "../../Images/Logos/skills/node.webp";
 import Python from "../../Images/Logos/skills/python.webp";
 import REACT from "../../Images/Logos/skills/react.webp";
 import SecurityClearance from "../../Images/Logos/skills/security-clearance.webp";
-import SecurityPlus from "../../Images/Logos/skills/security-plus.webp";
+import SecurityPlus from "../../Images/exp/securityPlus.png";
 import VMware from "../../Images/Logos/skills/vmware-workstation.webp";
 import Wireshark from "../../Images/Logos/skills/wireshark.webp";
 import {

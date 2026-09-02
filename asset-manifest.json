@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3d29e7fb.css",
-    "main.js": "/static/js/main.b440d6e9.js",
+    "main.js": "/static/js/main.37883602.js",
     "static/media/hackHayward.webp": "/static/media/hackHayward.c6e94e75ea45101e60c0.webp",
     "static/media/security-clearance.webp": "/static/media/security-clearance.18b3cd71a98474f5722a.webp",
     "static/media/eCommerenceWebsite.webp": "/static/media/eCommerenceWebsite.add588911ae5d1e5a19f.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.39e912893a03189be72b.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.47e028248696a9a81814.pdf",
     "static/media/databaseWebsite.webp": "/static/media/databaseWebsite.efe7acdf555a38c2a4ca.webp",
     "static/media/prof_pic_small.webp": "/static/media/prof_pic_small.868dc5407002c65d8f05.webp",
     "static/media/react.webp": "/static/media/react.2a67c6cdbcfbf1251a5b.webp",
     "static/media/wireshark.webp": "/static/media/wireshark.7aac9294e233d4be2b42.webp",
     "static/media/armyNationalGuard.png": "/static/media/armyNationalGuard.1f946a841c823558e0e3.png",
     "static/media/biblioConnect.webp": "/static/media/biblioConnect.c14209c20230fa99c7ec.webp",
-    "static/media/security-plus.webp": "/static/media/security-plus.5bde6587c006070deff6.webp",
     "static/media/cpp.webp": "/static/media/cpp.6f74dbe9af5731f29efb.webp",
     "static/media/linux.webp": "/static/media/linux.339b2ebd3cb31b56b486.webp",
     "static/media/java.webp": "/static/media/java.7c9a0daac7165c44fd3e.webp",
@@ -43,16 +42,16 @@
     "static/media/vmware-workstation.webp": "/static/media/vmware-workstation.4f7305385cfe9a2635ff.webp",
     "static/media/aiWebsite.webp": "/static/media/aiWebsite.9028a8b2587278322709.webp",
     "static/media/HackHayward.webp": "/static/media/HackHayward.d923fb7df5733793597e.webp",
+    "index.html": "/index.html",
     "static/media/GuitarApp.webp": "/static/media/GuitarApp.17f06bba7a7f696c5e91.webp",
     "static/media/ScrambleApp.webp": "/static/media/ScrambleApp.50743f600c64fdab304e.webp",
-    "index.html": "/index.html",
     "static/media/csueb.svg": "/static/media/csueb.851e77b9b44af420be937e8903cc36b6.svg",
     "static/media/cloud1.webp": "/static/media/cloud1.b193dfcfeb84d73f0379.webp",
     "main.3d29e7fb.css.map": "/static/css/main.3d29e7fb.css.map",
-    "main.b440d6e9.js.map": "/static/js/main.b440d6e9.js.map"
+    "main.37883602.js.map": "/static/js/main.37883602.js.map"
   },
   "entrypoints": [
     "static/css/main.3d29e7fb.css",
-    "static/js/main.b440d6e9.js"
+    "static/js/main.37883602.js"
   ]
 }
